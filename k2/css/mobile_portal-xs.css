@@ -1,0 +1,398 @@
+@media screen and (max-width: 767px) {
+	.line {
+		width: 300px;
+		margin: 22px 10px;
+	}
+
+	#section1 {
+	}
+
+		#section1 > h2 {
+			font-size: 18px;
+			margin-top: 30px;
+			margin-bottom: 25px;
+		}
+
+		#section1 .items {
+			width: 320px;
+			margin-bottom: 30px;
+		}
+
+			#section1 .items .item {
+				margin: 10px 10px;
+			}
+
+				#section1 .items .item > a {
+					font-size: 13px;
+					margin-top: 15px;
+				}
+
+					#section1 .items .item > a > img {
+						width: 140px;
+						height: 100px;
+					}
+
+	#section2 {
+	}
+
+		#section2 #part1 {
+		}
+
+			#section2 #part1 > h2 {
+				font-size: 18px;
+				margin-top: 30px;
+				margin-bottom: 25px;
+			}
+
+			#section2 #part1 > p {
+				font-size: 12px;
+			}
+
+		#section2 #part2 {
+			width: 320px;
+		}
+
+			#section2 #part2 .item {
+				margin: 10px 20px;
+			}
+
+				#section2 #part2 .item > h3 {
+					font-size: 14px;
+					margin: 13px 0;
+				}
+
+				#section2 #part2 .item > p {
+					font-size: 12px;
+					line-height: 1.4;
+					width: 10em;
+				}
+
+				#section2 #part2 .item#item1 > img {
+					width: 42.9px;
+					height: 51.48px;
+				}
+
+				#section2 #part2 .item#item2 > img {
+					width: 67.32px;
+					height: 54.12px;
+				}
+
+				#section2 #part2 .item#item3 > img {
+					width: 42.9px;
+					height: 51.48px;
+				}
+
+		#section2 #part3 {
+			font-size: 12px;
+			width: auto;
+		}
+
+			#section2 #part3 #p1 {
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+
+			#section2 #part3 #p2 {
+				font-size: 14px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom: 20px;
+			}
+
+	#section3 {
+	}
+
+		#section3 > h2 {
+			font-size: 18px;
+			margin-top: 30px;
+			margin-bottom: 25px;
+		}
+
+		#section3 #part2 {
+		}
+
+			#section3 #part2 .item {
+				position: relative;
+				margin-left: 0;
+			}
+
+				#section3 #part2 .item .content {
+					display: block;
+					position: relative;
+					font-size: 12px;
+				}
+
+				#section3 #part2 .item img {
+					display: block;
+					position: relative;
+				}
+
+				#section3 #part2 .item#item1 .content {
+					width: 22em;
+					margin-top: 20px;
+					margin-left: 0;
+				}
+
+				#section3 #part2 .item#item1 > img {
+					width: 204px;
+				}
+
+				#section3 #part2 .item#item2 .content {
+					top: 86px;
+					width: 22em;
+					text-align: center;
+					margin-top: 32px;
+					margin-bottom: 20px;
+					margin-right: 0;
+				}
+
+				#section3 #part2 .item#item2 > img {
+					top: -44px;
+					width: 240px;
+				}
+
+		#section3 #part3 {
+		}
+
+			#section3 #part3 > h3 {
+				font-size: 15px;
+				margin-bottom: 30px;
+			}
+
+			#section3 #part3 #boxes {
+				width: 320px;
+				margin-bottom: 20px;
+				margin-left: 0;
+			}
+
+				#section3 #part3 #boxes .box {
+					width: 100%;
+					margin-bottom: 20px;
+				}
+
+					#section3 #part3 #boxes .box > img {
+						width: 72px;
+						margin-right: 10px;
+					}
+
+					#section3 #part3 #boxes .box > h4 {
+						font-size: 13px;
+						margin-top: 8px;
+					}
+
+					#section3 #part3 #boxes .box > p {
+						font-size: 12px;
+						line-height: 1.4;
+					}
+
+	#section4 {
+	}
+
+		#section4 > h2 {
+			font-size: 18px;
+			margin-top: 30px;
+			margin-bottom: 25px;
+		}
+
+		#section4 > h3 {
+			font-size: 15px;
+			margin-bottom: 30px;
+		}
+
+		#section4 #img1 {
+			width: 300px;
+		}
+
+		#section4 #img2 {
+			width: 300px;
+			margin-bottom: 30px;
+		}
+
+	#section5 {
+	}
+
+		#section5 .box {
+			overflow: auto;
+			font-size: 0;
+		}
+
+		#section5 h3 {
+			font-size: 15px;
+			margin-top: 20px;
+			margin-bottom: 15px;
+		}
+
+		#section5 p {
+			font-size: 12px;
+			line-height: 1.4;
+			text-align: left;
+			text-indent: 2em;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#section5 .lists .list {
+			display: block;
+			width: 260px;
+			margin-top: 10px;
+			margin-right: 0;
+		}
+
+			#section5 .lists .list h4 {
+				font-size: 13px;
+			}
+
+			#section5 .lists .list .uls > ul {
+				margin-top: 10px;
+				margin-right: 20px;
+			}
+
+				#section5 .lists .list .uls > ul > li {
+					font-size: 12px;
+					margin-bottom: 6px;
+				}
+
+		#section5 #part1 {
+		}
+
+			#section5 #part1 > h2 {
+				font-size: 18px;
+				margin-top: 30px;
+				margin-bottom: 25px;
+			}
+
+			#section5 #part1 .imgs {
+				width: 668px;
+				margin-top: 20px;
+			}
+
+				#section5 #part1 .imgs img {
+					height: 225px;
+					margin: 0 15px;
+				}
+
+		#section5 #part2 {
+		}
+
+			#section5 #part2 .imgs {
+				width: 720px;
+				margin-top: 20px;
+			}
+
+				#section5 #part2 .imgs img {
+					width: 210px;
+					margin: 0 15px;
+				}
+
+		#section5 #part3 {
+		}
+
+			#section5 #part3 .imgs {
+				margin-top: 20px;
+			}
+
+				#section5 #part3 .imgs img {
+					width: 300px;
+				}
+
+			#section5 #part3 > h4 {
+				font-size: 15px;
+				margin: 20px 0;
+			}
+
+			#section5 #part3 table {
+				line-height: 30px;
+				width: 320px;
+			}
+
+				#section5 #part3 table th {
+					font-size: 13px;
+					border-bottom: 2px solid #eee;
+					border-right: 2px solid #eee;
+				}
+
+				#section5 #part3 table td {
+					font-size: 12px;
+					border-right: 2px solid #eee;
+				}
+
+		#section5 #part4 {
+		}
+
+			#section5 #part4 > p {
+				font-size: 13px;
+				text-align: center;
+				text-indent: 0;
+				margin: 20px 0;
+			}
+
+			#section5 #part4 .items {
+				width: 300px;
+				padding: 20px 0;
+			}
+
+				#section5 #part4 .items .item {
+					margin: 0 30px;
+				}
+
+					#section5 #part4 .items .item > img {
+						width: 72px;
+						margin: 13px;
+					}
+
+					#section5 #part4 .items .item > p {
+						font-size: 16px;
+						text-align: center;
+						text-indent: 0;
+						width: 220px;
+						margin-top: 10px;
+					}
+
+		#section5 #part5 {
+		}
+
+			#section5 #part5 > p {
+				font-size: 15px;
+				text-align: center;
+				text-indent: 0;
+				margin: 15px 0;
+			}
+
+			#section5 #part5 #steps {
+				margin-bottom: 22px;
+			}
+
+				#section5 #part5 #steps .step {
+					width: 300px;
+					margin-bottom: 26.4px;
+				}
+
+					#section5 #part5 #steps .step .left {
+						font-size: 15px;
+						line-height: 20px;
+						width: 20px;
+						height: 20px;
+					}
+
+					#section5 #part5 #steps .step .right {
+						margin-left: 30px;
+					}
+
+						#section5 #part5 #steps .step .right > p {
+							font-size: 12px;
+							text-indent: 0;
+						}
+
+		#section5 #part6 {
+		}
+
+			#section5 #part6 .imgs {
+				width: 760px;
+				margin-bottom: 45px;
+			}
+
+				#section5 #part6 .imgs img {
+					height: 210px;
+					margin: 0 10px;
+				}
+}

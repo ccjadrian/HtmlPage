@@ -1,0 +1,522 @@
+#section1 {
+	overflow: hidden;
+	background-image: url(../img/about/about-section1-background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+	#section1 > p {
+		color: #fff;
+	}
+
+		#section1 > p.cn {
+			display: inline-block;
+			font-size: 57px;
+			margin-top: 224px;
+			margin-bottom: 224px;
+		}
+
+		#section1 > p.en {
+			display: inline-block;
+			font-size: 43px;
+		}
+
+	#section1 #inline-button {
+		overflow: hidden;
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+
+		#section1 #inline-button > a {
+			display: inline-block;
+			float: left;
+			color: #fff;
+			font-size: 24px;
+			padding: 16px 43.5px;
+		}
+
+			#section1 #inline-button > a:nth-child(1) {
+				margin-left: 312.5px;
+			}
+
+			#section1 #inline-button > a:hover {
+				background-image: url(../img/about/about-section1-btn-bg.png);
+				background-size: cover;
+			}
+
+#section2 {
+	overflow: hidden;
+	background-image: url(../img/about/about-section2-background.png);
+	background-size: cover;
+	background-position: center;
+}
+
+	#section2 #title {
+		width: 675px;
+		height: 72px;
+		background-image: url(../img/about/about-section2-title.png);
+		background-size: cover;
+		color: #fff;
+		font-size: 25px;
+		line-height: 72px;
+		margin-top: 97px;
+		margin-bottom: 169px;
+	}
+
+	#section2 #content {
+		position: relative;
+		font-size: 25px;
+		width: 56em;
+		margin-left: 6px;
+		margin-bottom: 280px;
+	}
+
+		#section2 #content > p {
+		}
+
+		#section2 #content #left {
+			position: absolute;
+			width: 91px;
+			height: 77px;
+			left: -10px;
+			top: -50px;
+		}
+
+		#section2 #content #right {
+			position: absolute;
+			width: 91px;
+			height: 77px;
+			right: -35px;
+			bottom: -40px;
+		}
+
+#section3 {
+	overflow: hidden;
+	position: relative;
+}
+
+	#section3 #left {
+		width: 547px;
+		height: 575px;
+		margin-top: 90px;
+		margin-left: 252px;
+	}
+
+	#section3 #right {
+		position: absolute;
+		width: 337px;
+		height: 445px;
+		top: 467px;
+		left: 1444px;
+	}
+
+	#section3 .content {
+		margin-top: 90px;
+		margin-left: 252px;
+	}
+
+		#section3 .content:nth-child(4) {
+			margin-top: 129px;
+		}
+
+		#section3 .content .button {
+			width: 286px;
+			height: 69px;
+			color: #fff;
+			font-size: 33px;
+			text-align: center;
+			line-height: 69px;
+			background-image: url(../img/about/about-section3-button.png);
+			background-size: cover;
+		}
+
+		#section3 .content .title {
+			font-size: 22px;
+			margin-top: 60px;
+		}
+
+		#section3 .content > p {
+			font-size: 22px;
+			margin-bottom: 1em;
+		}
+
+		#section3 .content:nth-child(4) > p:nth-child(11) {
+			text-indent: 1.5em;
+		}
+
+	#section3 > p {
+		color: #ff6a00;
+		font-size: 30px;
+		margin-top: 97px;
+		margin-bottom: 97px;
+		margin-left: 252px;
+	}
+
+@media screen and (min-width: 1580px) and (max-width: 1879px) {
+	#section3 #left {
+		margin-left: 13%;
+	}
+
+	#section3 #right {
+		left: 75%;
+	}
+
+	#section3 .content {
+		margin-left: 13%;
+	}
+
+	#section3 > p {
+		margin-left: 13%;
+	}
+}
+
+@media screen and (min-width: 1060px) and (max-width: 1579px) {
+	#section1 {
+	}
+
+		#section1 > p.cn {
+			font-size: 37px;
+			margin-top: 148px;
+			margin-bottom: 148px;
+		}
+
+		#section1 > p.en {
+			font-size: 28px;
+		}
+
+		#section1 #inline-button > a {
+			font-size: 16px;
+			padding: 10.5px 28px;
+		}
+
+			#section1 #inline-button > a:nth-child(1) {
+				margin-left: 13%;
+			}
+
+	#section2 {
+	}
+
+		#section2 #title {
+			width: 445px;
+			height: 47px;
+			font-size: 16px;
+			line-height: 47px;
+			margin-top: 64px;
+			margin-bottom: 111px;
+		}
+
+		#section2 #content {
+			position: relative;
+			font-size: 16px;
+			width: 56em;
+			margin-left: 3px;
+			margin-bottom: 184px;
+		}
+
+			#section2 #content > p {
+			}
+
+			#section2 #content #left {
+				position: absolute;
+				width: 60px;
+				height: 51px;
+				left: -6px;
+				top: -30px;
+			}
+
+			#section2 #content #right {
+				position: absolute;
+				width: 60px;
+				height: 51px;
+				right: -23px;
+				bottom: -26px;
+			}
+
+	#section3 {
+	}
+
+		#section3 #left {
+			width: 361px;
+			height: 379px;
+			margin-top: 59px;
+			margin-left: 13%;
+		}
+
+		#section3 #right {
+			position: absolute;
+			width: 222px;
+			height: 294px;
+			top: 308px;
+			left: 75%;
+		}
+
+		#section3 .content {
+			margin-top: 59px;
+			margin-left: 13%;
+		}
+
+			#section3 .content:nth-child(4) {
+				margin-top: 85px;
+			}
+
+			#section3 .content .button {
+				width: 189px;
+				height: 45px;
+				font-size: 22px;
+				line-height: 45px;
+			}
+
+			#section3 .content .title {
+				font-size: 14px;
+				margin-top: 39px;
+			}
+
+			#section3 .content > p {
+				font-size: 14px;
+				margin-bottom: 1em;
+			}
+
+		#section3 > p {
+			font-size: 20px;
+			margin-top: 64px;
+			margin-bottom: 64px;
+			margin-left: 13%;
+		}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1059px) {
+	#section1 {
+	}
+
+		#section1 > p.cn {
+			font-size: 37px;
+			margin-top: 148px;
+			margin-bottom: 148px;
+		}
+
+		#section1 > p.en {
+			font-size: 28px;
+		}
+
+		#section1 #inline-button > a {
+			font-size: 16px;
+			padding: 10.5px 28px;
+		}
+
+			#section1 #inline-button > a:nth-child(1) {
+				margin-left: 13%;
+			}
+
+	#section2 {
+	}
+
+		#section2 #title {
+			width: 445px;
+			height: 47px;
+			font-size: 16px;
+			line-height: 47px;
+			margin-top: 64px;
+			margin-bottom: 111px;
+		}
+
+		#section2 #content {
+			position: relative;
+			font-size: 12px;
+			width: 56em;
+			margin-left: 3px;
+			margin-bottom: 120px;
+		}
+
+			#section2 #content > p {
+			}
+
+			#section2 #content #left {
+				position: absolute;
+				width: 45.5px;
+				height: 38.5px;
+				left: -2px;
+				top: -25px;
+			}
+
+			#section2 #content #right {
+				position: absolute;
+				width: 45.5px;
+				height: 38.5px;
+				right: -15px;
+				bottom: -20px;
+			}
+
+	#section3 {
+	}
+
+		#section3 #left {
+			width: 273px;
+			height: 287px;
+			margin-top: 40px;
+			margin-left: 13%;
+		}
+
+		#section3 #right {
+			position: absolute;
+			width: 168px;
+			height: 222px;
+			top: 233px;
+			left: 70%;
+		}
+
+		#section3 .content {
+			margin-top: 40px;
+			margin-left: 13%;
+		}
+
+			#section3 .content:nth-child(4) {
+				margin-top: 65px;
+			}
+
+			#section3 .content .button {
+				width: 143px;
+				height: 35px;
+				font-size: 18px;
+				line-height: 35px;
+			}
+
+			#section3 .content .title {
+				font-size: 12px;
+				margin-top: 30px;
+			}
+
+			#section3 .content > p {
+				font-size: 12px;
+				margin-bottom: 1em;
+			}
+
+		#section3 > p {
+			font-size: 16px;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			margin-left: 13%;
+		}
+}
+
+@media screen and (max-width: 767px) {
+	#section1 {
+	}
+
+		#section1 > p.cn {
+			font-size: 24px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+		#section1 > p.en {
+			font-size: 18px;
+		}
+
+		#section1 #inline-button > a {
+			font-size: 12px;
+			padding: 8px 16px;
+		}
+
+			#section1 #inline-button > a:nth-child(1) {
+				margin-left: 10%;
+			}
+
+	#section2 {
+	}
+
+		#section2 #title {
+			width: 295px;
+			height: 28px;
+			font-size: 12px;
+			line-height: 28px;
+			margin-top: 30px;
+			margin-bottom: 50px;
+		}
+
+		#section2 #content {
+			position: relative;
+			font-size: 12px;
+			width: 90%;
+			margin-left: 0;
+			margin-bottom: 70px;
+		}
+
+			#section2 #content > p {
+			}
+
+			#section2 #content #left {
+				position: absolute;
+				width: 33px;
+				height: 23px;
+				left: -5px;
+				top: -10px;
+			}
+
+			#section2 #content #right {
+				position: absolute;
+				width: 33px;
+				height: 23px;
+				right: -5px;
+				bottom: -10px;
+			}
+
+	#section3 {
+	}
+
+		#section3 #left {
+			width: 182px;
+			height: 191px;
+			margin-top: 30px;
+			margin-left: 5%;
+		}
+
+		#section3 #right {
+			position: absolute;
+			width: 112px;
+			height: 148px;
+			top: 160px;
+			left: 65%;
+		}
+
+		#section3 .content {
+			margin-top: 20px;
+			margin-left: 5%;
+		}
+
+			#section3 .content:nth-child(4) {
+				margin-top: 40px;
+			}
+
+			#section3 .content .button {
+				width: 143px;
+				height: 35px;
+				font-size: 16px;
+				line-height: 35px;
+			}
+
+			#section3 .content .title {
+				font-size: 12px;
+				margin-top: 30px;
+			}
+
+			#section3 .content > p {
+				width: 95%;
+				font-size: 12px;
+				margin-bottom: 1em;
+				line-height: 1.4;
+			}
+
+			#section3 .content:nth-child(4) > p:nth-child(10) {
+				margin-bottom: 0;
+			}
+
+			#section3 .content:nth-child(4) > p:nth-child(11) {
+				text-indent: 0;
+			}
+
+		#section3 > p {
+			font-size: 14px;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			margin-left: 5%;
+		}
+}

@@ -1,0 +1,282 @@
+@media screen and (min-width: 1060px) and (max-width: 1579px) {
+	#section1 {
+	}
+
+		#section1 > h1 {
+			font-size: 30px;
+			margin-top: 84px;
+		}
+
+		#section1 #part2 {
+			width: 462px;
+			height: 97px;
+			margin-top: 25px;
+			margin-bottom: 27px;
+		}
+
+			#section1 #part2 > p {
+				font-size: 15px;
+				margin-left: 26.4px;
+				margin-bottom: 10px;
+			}
+
+				#section1 #part2 > p:nth-child(1) {
+					margin-top: 16px;
+				}
+
+				#section1 #part2 > p:nth-last-child(1) {
+					margin-bottom: 16px;
+				}
+
+		#section1 #part3 {
+			font-size: 16px;
+			margin-bottom: 84px;
+			margin-left: 6.6px;
+			margin-right: 6.6px;
+		}
+
+	#section2 {
+	}
+
+		#section2 > h1 {
+			font-size: 40px;
+			line-height: 47px;
+			background-size: 47px 47px;
+			padding-left: 66px;
+			margin-top: 80px;
+			margin-bottom: 23px;
+		}
+
+		#section2 #p1 {
+			font-size: 13px;
+		}
+
+		#section2 #p2 {
+			font-size: 15px;
+			line-height: 30px;
+			width: 693px;
+			height: 30px;
+			padding-left: 16px;
+			margin-bottom: 22px;
+		}
+
+		#section2 #p3 {
+			font-size: 15px;
+			width: 660px;
+			margin-bottom: 12px;
+		}
+
+		#section2 #p4 {
+			font-size: 13px;
+			width: 660px;
+			margin-bottom: 28px;
+		}
+
+		#section2 #part3 > img {
+			width: 683px;
+		}
+
+		#section2 #part3 > div {
+			margin-top: 11px;
+			margin-bottom: 66px;
+		}
+
+			#section2 #part3 > div > span {
+				font-size: 14px;
+				background-size: 8.5px 8.5px;
+				margin-right: 42px;
+			}
+
+		#section2 #part4 > img {
+			width: 683px;
+		}
+
+		#section2 #part4 > p {
+			font-size: 14px;
+			width: 660px;
+			margin-top: 28px;
+			margin-bottom: 76px;
+		}
+
+		#section2 .box {
+		}
+
+			#section2 .box .text {
+			}
+
+				#section2 .box .text > a {
+					font-size: 17px;
+					margin-top: 35px;
+				}
+
+				#section2 .box .text .line {
+					margin-top: 4px;
+					margin-bottom: 30px;
+				}
+
+	#section3 {
+	}
+
+		#section3 > h1 {
+			font-size: 40px;
+			line-height: 47px;
+			background-size: 47px 47px;
+			padding-left: 66px;
+			margin-top: 80px;
+			margin-bottom: 23px;
+		}
+
+		#section3 > p {
+			font-size: 12px;
+		}
+
+		#section3 #part2 {
+			margin-top: 50px;
+		}
+
+			#section3 #part2 > h2 {
+				font-size: 25px;
+				margin-bottom: 30px;
+			}
+
+			#section3 #part2 #icons {
+			}
+
+				#section3 #part2 #icons .icon {
+					width: 185px;
+					height: 115px;
+					margin-right: 47px;
+				}
+
+					#section3 #part2 #icons .icon .num {
+						font-size: 44px;
+						margin-top: 16px;
+					}
+
+					#section3 #part2 #icons .icon .cn {
+						font-size: 18px;
+						margin-top: 20px;
+					}
+
+			#section3 #part2 #panel {
+				width: 1042px;
+				height: 336px;
+				margin-top: 13px;
+				margin-bottom: 51px;
+			}
+
+				#section3 #part2 #panel .content > h2 {
+					font-size: 25px;
+					margin-top: 52px;
+					margin-bottom: 48px;
+					margin-left: 132px;
+				}
+
+				#section3 #part2 #panel .content .col:nth-child(2) {
+					left: 132px;
+				}
+
+				#section3 #part2 #panel .content .col:nth-child(3) {
+					left: 455px;
+				}
+
+				#section3 #part2 #panel .content .col:nth-child(4) {
+					left: 750px;
+				}
+
+				#section3 #part2 #panel .content .col > p {
+					font-size: 16px;
+					margin-bottom: 12px;
+				}
+
+		#section3 #part3 {
+		}
+
+			#section3 #part3 > h2 {
+				font-size: 25px;
+				margin-bottom: 35px;
+			}
+
+			#section3 #part3 > p {
+				font-size: 16px;
+				margin-bottom: 10.5px;
+			}
+
+			#section3 #part3 #section3-content {
+				margin-top: 75px;
+				margin-bottom: 36px;
+			}
+
+				#section3 #part3 #section3-content .arrow {
+					width: 23.1px;
+					height: 37.6px;
+					margin-top: 212.7px;
+				}
+
+					#section3 #part3 #section3-content .arrow#left {
+						margin-right: 1%;
+					}
+
+					#section3 #part3 #section3-content .arrow#right {
+						margin-left: 1%;
+					}
+
+				#section3 #part3 #section3-content .image-box {
+					width: 960px;
+					height: 463px;
+				}
+
+			#section3 #part3 #points {
+				margin-bottom: 86px;
+			}
+
+				#section3 #part3 #points .point {
+					width: 8.5px;
+					height: 8.5px;
+					margin-right: 20px;
+				}
+
+	#section4 {
+	}
+
+		#section4 > h1 {
+			font-size: 40px;
+			line-height: 47px;
+			background-size: 47px 47px;
+			padding-left: 66px;
+			margin-top: 80px;
+			margin-bottom: 23px;
+		}
+
+		#section4 > p {
+			font-size: 14px;
+		}
+
+		#section4 .section4-group {
+			margin-right: 66px;
+		}
+
+			#section4 .section4-group .content {
+				margin-top: 44px;
+			}
+
+				#section4 .section4-group .content > h4 {
+					font-size: 15px;
+					letter-spacing: 2px;
+					background-size: 4px 100%;
+					padding-left: 8px;
+					margin-bottom: 10.5px;
+				}
+
+				#section4 .section4-group .content > p {
+					font-size: 12px;
+					letter-spacing: 0;
+					width: 27em;
+				}
+
+		#section4 > img {
+			width: 736px;
+			margin-top: 42px;
+			margin-bottom: 111px;
+		}
+}

@@ -1,0 +1,347 @@
+#section1 {
+	overflow: hidden;
+}
+
+	#section1 #part1 {
+		overflow: hidden;
+		width: 452px;
+		height: 368px;
+		background-image: url(../img/process_portal/section1-part1.png);
+		background-size: 100% 100%;
+		margin-top: 92px;
+	}
+
+		#section1 #part1 > div {
+			color: #00b5c8;
+			font-size: 22px;
+			line-height: 37px;
+		}
+
+			#section1 #part1 > div#content1 {
+				margin-top: 28px;
+				margin-right: 255px;
+			}
+
+			#section1 #part1 > div#content2 {
+				margin-left: 255px;
+			}
+
+			#section1 #part1 > div#content3 {
+				margin-right: 190px;
+			}
+
+			#section1 #part1 > div#content4 {
+				margin-left: 128px;
+			}
+
+			#section1 #part1 > div#content5 {
+				margin-right: 166px;
+			}
+
+			#section1 #part1 > div#content6 {
+				margin-left: 185px;
+			}
+
+			#section1 #part1 > div#content7 {
+				margin-top: 4px;
+				margin-right: 195px;
+			}
+
+			#section1 #part1 > div#content8 {
+				margin-left: 185px;
+			}
+
+	#section1 #part2 {
+		color: #00b5c8;
+		font-size: 33px;
+		margin-top: 30px;
+		margin-bottom: 32px;
+	}
+
+	#section1 #part3 {
+		overflow: hidden;
+		width: 1231px;
+		height: 109px;
+		background-image: url(../img/process_portal/section1-part3.png);
+		background-size: 100% 100%;
+	}
+
+		#section1 #part3 > p {
+			font-size: 20px;
+			width: 58em;
+			line-height: 1.6em;
+			margin-top: 22.5px;
+			margin-bottom: 22.5px;
+		}
+
+	#section1 > img {
+		display: block;
+		width: 1255px;
+		height: 1261px;
+		margin-top: 38px;
+		margin-bottom: 127px;
+	}
+
+#section2 {
+	overflow: hidden;
+	background-image: url(../img/process_portal/section2-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+	#section2 > h1 {
+		color: #00b5c8;
+		font-size: 45px;
+		margin-top: 128px;
+		margin-bottom: 32px;
+	}
+
+	#section2 > p {
+		font-size: 25px;
+		margin: 0;
+	}
+
+	#section2 > img {
+		display: block;
+		width: 1106px;
+		height: 406px;
+		margin-top: 78px;
+		margin-bottom: 123px;
+	}
+
+	#section2 .box {
+		overflow: hidden;
+		background-color: rgb(132, 204, 1);
+	}
+
+		#section2 .box .text {
+			display: inline-block;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+			#section2 .box .text > a {
+				display: block;
+				color: #fff;
+				font-size: 26px;
+				margin-top: 40px;
+			}
+
+			#section2 .box .text .line {
+				overflow: hidden;
+				background-color: #fff;
+				width: 0;
+				height: 1px;
+				margin-top: 7px;
+				margin-bottom: 32px;
+			}
+
+#section3 {
+	overflow: hidden;
+}
+
+	#section3 > h1 {
+		color: #00b5c8;
+		font-size: 45px;
+		margin-top: 103px;
+		margin-bottom: 54px;
+	}
+
+	#section3 > img {
+		display: block;
+		width: 1293px;
+		height: 615px;
+	}
+
+	#section3 #content {
+		display: inline-block;
+		margin-top: 74px;
+		margin-bottom: 144px;
+		margin-left: 3.5%;
+	}
+
+		#section3 #content p {
+			font-size: 25px;
+			text-align: left;
+			background-image: url(../img/process_portal/left-point.png);
+			background-position: left center;
+			background-size: 13px 12px;
+			background-repeat: no-repeat;
+			padding-left: 32px;
+			margin-bottom: 1em;
+		}
+
+			#section3 #content p:nth-last-child(1) {
+				margin-bottom: 0;
+			}
+
+#section4 {
+	overflow: hidden;
+	background-image: url(../img/process_portal/section4-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+	#section4 > h1 {
+		color: #00b5c8;
+		font-size: 45px;
+		margin-top: 116px;
+		margin-bottom: 74px;
+	}
+
+	#section4 > img {
+		display: block;
+		width: 1238px;
+		height: 792px;
+	}
+
+	#section4 #content {
+		display: inline-block;
+		margin-top: 68px;
+		margin-bottom: 141px;
+		margin-left: 1%;
+	}
+
+		#section4 #content .half {
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 84px;
+		}
+
+		#section4 #content p {
+			font-size: 25px;
+			text-align: left;
+			background-image: url(../img/process_portal/left-point.png);
+			background-position: left center;
+			background-size: 13px 12px;
+			background-repeat: no-repeat;
+			padding-left: 32px;
+			margin-bottom: 1em;
+		}
+
+			#section4 #content p:nth-last-child(1) {
+				margin-bottom: 0;
+			}
+
+		#section4 #content .half:nth-child(2) {
+			margin-right: 0;
+		}
+
+			#section4 #content .half:nth-child(2) > p.no-img {
+				background: none;
+			}
+
+#section5 {
+	overflow: hidden;
+}
+
+	#section5 > h1 {
+		color: #00b5c8;
+		font-size: 45px;
+		margin-top: 126px;
+		margin-bottom: 74px;
+	}
+
+	#section5 > img {
+		display: block;
+		width: 1146px;
+		height: 626px;
+	}
+
+	#section5 #content {
+		display: inline-block;
+		margin-top: 68px;
+		margin-bottom: 157px;
+		margin-left: 3%;
+	}
+
+		#section5 #content .half {
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 36px;
+		}
+
+		#section5 #content p {
+			font-size: 25px;
+			text-align: left;
+			background-image: url(../img/process_portal/left-point.png);
+			background-position: left center;
+			background-size: 13px 12px;
+			background-repeat: no-repeat;
+			padding-left: 32px;
+			margin-bottom: 1em;
+		}
+
+			#section5 #content p:nth-last-child(1) {
+				margin-bottom: 0;
+			}
+
+		#section5 #content .half:nth-child(2) {
+			margin-right: 0;
+		}
+
+			#section5 #content .half:nth-child(2) > p.no-img {
+				background: none;
+			}
+
+#section6 {
+	overflow: hidden;
+	background-image: url(../img/process_portal/section6-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+	#section6 > h1 {
+		color: #fff;
+		font-size: 45px;
+		margin-top: 87px;
+		margin-bottom: 177px;
+	}
+
+	#section6 > img {
+		margin-right: 156px;
+		height: 130px;
+	}
+
+		#section6 > img#img1 {
+			width: 104px;
+		}
+
+		#section6 > img#img2 {
+			width: 207px;
+		}
+
+		#section6 > img#img3 {
+			width: 102px;
+		}
+
+		#section6 > img#img4 {
+			width: 70px;
+			margin-right: 0;
+		}
+
+	#section6 #bottom {
+		margin-top: 51px;
+		margin-bottom: 95px;
+	}
+
+		#section6 #bottom > p {
+			display: inline-block;
+			color: #fff;
+			font-size: 33px;
+			margin-top: 6px;
+			margin-bottom: 0;
+			margin-right: 15px;
+		}
+
+		#section6 #bottom > a {
+			display: inline-block;
+			vertical-align: top;
+			color: #fff;
+			font-size: 24px;
+			line-height: 45px;
+			width: 128px;
+			height: 45px;
+			background-image: url(../img/process_portal/section6-btn.png);
+			background-size: 100% 100%;
+		}

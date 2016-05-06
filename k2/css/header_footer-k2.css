@@ -1,0 +1,830 @@
+#header {
+	overflow: hidden;
+	background-color: #fff;
+	font-size: 28px;
+	opacity: 0.9;
+	border: none;
+	margin-bottom: 0;
+}
+
+	#header .lg {
+		margin: 18px auto;
+	}
+
+		#header .lg > div {
+			display: inline-block;
+			vertical-align: top;
+			margin-top: 13px;
+			margin-left: 3.3%;
+		}
+
+			#header .lg > div > a {
+				display: block;
+				color: #000;
+			}
+
+		#header .lg .logo {
+			margin-top: 0;
+			margin-left: 0;
+		}
+
+			#header .lg .logo > a > img {
+				display: block;
+				font-size: inherit;
+				height: 3em;
+				padding: 0;
+			}
+
+		#header .lg .header-a > a {
+			padding-top: 15px;
+			padding-bottom: 12px;
+			padding-left: 0;
+			padding-right: 0;
+			border-bottom: 3px solid #ffffff;
+		}
+
+			#header .lg .header-a > a:hover {
+				border-bottom: 3px solid #00b5c8;
+				-moz-transition: 0.8s;
+				-o-transition: 0.8s;
+				-webkit-transition: 0.8s;
+				transition: 0.8s;
+			}
+
+		#header .lg .header-button {
+		}
+
+			#header .lg .header-button#phone {
+				background-color: #00b5c8;
+				background-image: url("../img/header_footer-k2/phone.png");
+				background-size: 35px 35px;
+				background-position: 25px center;
+				background-repeat: no-repeat;
+			}
+
+			#header .lg .header-button > a {
+				line-height: 1;
+				padding: 14px 30px;
+				border: 1px solid #00b5c8;
+			}
+
+			#header .lg .header-button#phone > a {
+				color: #fff;
+				padding-left: 66px;
+			}
+
+		#header .lg .header-num {
+			color: #00b5c8;
+			padding: 15px 0;
+		}
+
+	#header .sm {
+		display: none;
+		width: 1366px;
+		padding-top: 18px;
+		padding-bottom: 18px;
+		margin: 0 auto;
+	}
+
+		#header .sm .navbar-header .navbar-brand {
+			font-size: inherit;
+			height: 3em;
+			padding: 0;
+		}
+
+		#header .sm .navbar-collapse > ul {
+			margin-top: 13px;
+			margin-right: -15px;
+		}
+
+			#header .sm .navbar-collapse > ul > li {
+				text-align: center;
+				margin-left: 33px;
+			}
+
+				#header .sm .navbar-collapse > ul > li:nth-child(1) {
+					margin-left: 0;
+				}
+
+				#header .sm .navbar-collapse > ul > li > a {
+					color: #000;
+					line-height: 1;
+				}
+
+				#header .sm .navbar-collapse > ul > li.header-a > a {
+					padding-top: 15px;
+					padding-bottom: 12px;
+					padding-left: 0;
+					padding-right: 0;
+					border-bottom: 3px solid #ffffff;
+				}
+
+					#header .sm .navbar-collapse > ul > li.header-a > a:hover {
+						border-bottom: 3px solid #00b5c8;
+						-moz-transition: 0.8s;
+						-o-transition: 0.8s;
+						-webkit-transition: 0.8s;
+						transition: 0.8s;
+					}
+
+				#header .sm .navbar-collapse > ul > li.header-button {
+				}
+
+					#header .sm .navbar-collapse > ul > li.header-button#phone {
+						background-color: #00b5c8;
+						background-image: url("../img/header_footer-k2/phone.png");
+						background-size: 35px 35px;
+						background-position: 25px 11.5px;
+						background-repeat: no-repeat;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-button > a {
+						line-height: 1;
+						padding: 14px 30px;
+						border: 1px solid #00b5c8;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-button#phone > a {
+						color: #fff;
+						padding-left: 66px;
+					}
+
+				#header .sm .navbar-collapse > ul > li.header-num {
+					color: #00b5c8;
+					padding: 15px 0;
+				}
+
+#footer {
+	overflow: hidden;
+}
+
+	#footer #go-top {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		width: 68px;
+		height: 62px;
+		background-image: url(../img/header_footer-k2/to-top.png);
+		background-size: 100% 100%;
+	}
+
+		#footer #go-top:hover {
+			bottom: 18px;
+			-moz-transition: 0.5s;
+			-o-transition: 0.5s;
+			-webkit-transition: 0.5s;
+			transition: 0.5s;
+		}
+
+	#footer #part1 {
+		overflow: hidden;
+		background-color: #00b5c8;
+	}
+
+		#footer #part1 > h1 {
+			color: #fff;
+			font-size: 45px;
+			margin-top: 114px;
+			margin-bottom: 93px;
+		}
+
+		#footer #part1 .icon {
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 211px;
+			margin-bottom: 137px;
+		}
+
+			#footer #part1 .icon:nth-child(2) {
+				margin-right: 204px;
+			}
+
+			#footer #part1 .icon:nth-last-child(1) {
+				margin-right: 0;
+			}
+
+			#footer #part1 .icon > a {
+				display: block;
+				background-size: 100% 100%;
+				margin: 0 auto;
+			}
+
+			#footer #part1 .icon > p {
+				color: #fff;
+				font-size: 25px;
+				padding-top: 1em;
+				margin-bottom: 0;
+			}
+
+			#footer #part1 .icon#icon1 > a {
+				width: 186px;
+				height: 164px;
+				background-image: url(../img/header_footer-k2/footer-icon1.png);
+				margin-bottom: 9px;
+			}
+
+			#footer #part1 .icon#icon2 > a {
+				width: 233px;
+				height: 169px;
+				background-image: url(../img/header_footer-k2/footer-icon2.png);
+				margin-bottom: 4px;
+			}
+
+			#footer #part1 .icon#icon3 > a {
+				width: 172px;
+				height: 173px;
+				background-image: url(../img/header_footer-k2/footer-icon3.png);
+			}
+
+	#footer #part2 {
+		background-color: #151515;
+	}
+
+		#footer #part2 .list {
+			display: inline-block;
+			vertical-align: top;
+			margin-top: 60px;
+			margin-bottom: 50px;
+			margin-left: 35px;
+			margin-right: 35px;
+		}
+
+			#footer #part2 .list > a {
+				display: block;
+				color: #a9a9a9;
+				font-size: 16px;
+				margin-bottom: 25px;
+			}
+
+				#footer #part2 .list > a:hover {
+					color: #00b5c8;
+				}
+
+			#footer #part2 .list > p {
+				color: #a9a9a9;
+				font-size: 16px;
+			}
+
+			#footer #part2 .list .title {
+				color: #fff;
+				font-size: 20px;
+			}
+
+			#footer #part2 .list .footer-line {
+				width: 174px;
+				height: 4px;
+				background-image: url(../img/header_footer-k2/footer-line.png);
+				background-size: 100% 100%;
+				margin-top: 20px;
+				margin-bottom: 40px;
+			}
+
+			#footer #part2 .list #wechat {
+				width: 50px;
+				height: 50px;
+				background-image: url(../img/header_footer-k2/wechat.png);
+				background-size: 100% 100%;
+				margin-top: 40px;
+				cursor: pointer;
+			}
+
+	#footer .modal-dialog .modal-content .modal-body > img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#footer #part3 {
+		background-color: #0f0f0f;
+	}
+
+		#footer #part3 > div {
+			display: inline-block;
+			color: #a9a9a9;
+			font-size: 18px;
+			width: 50%;
+			margin-top: 35px;
+			margin-bottom: 35px;
+		}
+
+@media screen and (min-width: 1060px) and (max-width: 1579px) {
+	#header {
+		font-size: 19px;
+	}
+
+		#header .lg {
+			margin: 12px auto;
+		}
+
+			#header .lg > div {
+				margin-top: 12px;
+				margin-left: 2.8%;
+			}
+
+			#header .lg .header-a > a {
+				padding-top: 10px;
+				padding-bottom: 12px;
+				padding-left: 0;
+				padding-right: 0;
+				border-bottom: 3px solid #ffffff;
+			}
+
+			#header .lg .header-button {
+			}
+
+				#header .lg .header-button#phone {
+					background-size: 23px 23px;
+					background-position: 16.5px center;
+				}
+
+				#header .lg .header-button > a {
+					padding: 9px 20px;
+				}
+
+				#header .lg .header-button#phone > a {
+					padding-left: 44px;
+				}
+
+			#header .lg .header-num {
+				padding: 10px 0;
+			}
+
+		#header .sm {
+			display: none;
+			width: 901px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+		}
+
+			#header .sm .navbar-collapse > ul {
+				margin-top: 9px;
+				margin-right: -10px;
+			}
+
+				#header .sm .navbar-collapse > ul > li {
+					margin-left: 20px;
+				}
+
+					#header .sm .navbar-collapse > ul > li.header-a > a {
+						padding-top: 10px;
+						padding-bottom: 7px;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-button#phone {
+						background-size: 23px 23px;
+						background-position: 16.5px 11.5px;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-button > a {
+						padding: 9px 20px;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-button#phone > a {
+						padding-left: 44px;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-num {
+						padding: 10px 0;
+					}
+
+	#footer {
+	}
+
+		#footer #go-top {
+			width: 45px;
+			height: 41px;
+		}
+
+			#footer #go-top:hover {
+				bottom: 12px;
+			}
+
+		#footer #part1 {
+		}
+
+			#footer #part1 > h1 {
+				font-size: 30px;
+				margin-top: 75px;
+				margin-bottom: 61px;
+			}
+
+			#footer #part1 .icon {
+				margin-right: 140px;
+				margin-bottom: 90px;
+			}
+
+				#footer #part1 .icon:nth-child(2) {
+					margin-right: 137.35px;
+				}
+
+				#footer #part1 .icon > p {
+					font-size: 16px;
+				}
+
+				#footer #part1 .icon#icon1 > a {
+					width: 122.7px;
+					height: 108.2px;
+					margin-bottom: 5.9px;
+				}
+
+				#footer #part1 .icon#icon2 > a {
+					width: 153.7px;
+					height: 111.5px;
+					margin-bottom: 2.6px;
+				}
+
+				#footer #part1 .icon#icon3 > a {
+					width: 113.5px;
+					height: 114.1px;
+				}
+
+		#footer #part2 {
+		}
+
+			#footer #part2 .list {
+				margin-top: 40px;
+				margin-bottom: 30px;
+				margin-left: 4%;
+				margin-right: 4%;
+			}
+
+				#footer #part2 .list > a {
+					font-size: 14px;
+					margin-bottom: 15px;
+				}
+
+				#footer #part2 .list > p {
+					font-size: 14px;
+				}
+
+				#footer #part2 .list .title {
+					font-size: 18px;
+				}
+
+				#footer #part2 .list .footer-line {
+					width: 115px;
+					height: 3px;
+					margin-top: 13px;
+					margin-bottom: 26.4px;
+				}
+
+				#footer #part2 .list #wechat {
+					width: 33px;
+					height: 33px;
+					margin-top: 20px;
+				}
+
+		#footer #part3 {
+		}
+
+			#footer #part3 > div {
+				font-size: 16px;
+				width: 50%;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1059px) {
+	#header {
+		font-size: 14px;
+	}
+
+		#header .lg {
+			display: none;
+		}
+
+		#header .sm {
+			display: block;
+			width: 683px;
+			padding-top: 9px;
+			padding-bottom: 9px;
+		}
+
+			#header .sm .navbar-collapse > ul {
+				margin-top: 6px;
+				margin-right: -8px;
+			}
+
+				#header .sm .navbar-collapse > ul > li {
+					margin-left: 17px;
+				}
+
+					#header .sm .navbar-collapse > ul > li.header-a > a {
+						padding-top: 8px;
+						padding-bottom: 5px;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-button#phone {
+						background-image: none;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-button > a {
+						width: 5em;
+						padding: 7px 15px;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-button#phone > a {
+						padding: 7px 15px;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-num {
+						padding: 8px 0;
+					}
+
+	#footer {
+	}
+
+		#footer #go-top {
+			width: 45px;
+			height: 41px;
+		}
+
+			#footer #go-top:hover {
+				bottom: 12px;
+			}
+
+		#footer #part1 {
+		}
+
+			#footer #part1 > h1 {
+				font-size: 23px;
+				margin-top: 50px;
+				margin-bottom: 40px;
+			}
+
+			#footer #part1 .icon {
+				margin-right: 100px;
+				margin-bottom: 60px;
+			}
+
+				#footer #part1 .icon:nth-child(2) {
+					margin-right: 95.5px;
+				}
+
+				#footer #part1 .icon > p {
+					font-size: 13px;
+				}
+
+				#footer #part1 .icon#icon1 > a {
+					width: 93px;
+					height: 82px;
+					margin-bottom: 4.5px;
+				}
+
+				#footer #part1 .icon#icon2 > a {
+					width: 116.5px;
+					height: 84.5px;
+					margin-bottom: 2px;
+				}
+
+				#footer #part1 .icon#icon3 > a {
+					width: 86px;
+					height: 86.5px;
+				}
+
+		#footer #part2 {
+		}
+
+			#footer #part2 .list {
+				margin-top: 20px;
+				margin-bottom: 15px;
+				margin-left: 3%;
+				margin-right: 3%;
+			}
+
+				#footer #part2 .list > a {
+					font-size: 14px;
+					margin-bottom: 12px;
+				}
+
+				#footer #part2 .list > p {
+					font-size: 14px;
+				}
+
+				#footer #part2 .list .title {
+					font-size: 16px;
+				}
+
+				#footer #part2 .list .footer-line {
+					width: 115px;
+					height: 3px;
+					margin-top: 13px;
+					margin-bottom: 26.4px;
+				}
+
+				#footer #part2 .list #wechat {
+					width: 33px;
+					height: 33px;
+					margin-top: 10px;
+				}
+
+		#footer #part3 {
+		}
+
+			#footer #part3 > div {
+				font-size: 12px;
+				width: 50%;
+				margin: 0;
+			}
+
+			#footer #part3 #footer-p1 {
+				padding-top: 10px;
+			}
+
+			#footer #part3 #footer-p2 {
+				padding-top: 5px;
+				padding-bottom: 10px;
+			}
+}
+
+@media screen and (max-width: 767px) {
+	#header {
+		font-size: 14px;
+	}
+
+		#header .lg {
+			display: none;
+		}
+
+		#header .sm {
+			display: block;
+			width: auto;
+			padding: 0;
+		}
+
+			#header .sm .navbar-header .navbar-brand {
+				height: 40px;
+				margin-top: 5px;
+				margin-left: 15px;
+			}
+
+			#header .sm .navbar-collapse > ul {
+				margin-top: 6px;
+				margin-right: -15px;
+			}
+
+				#header .sm .navbar-collapse > ul > li {
+					width: 100px;
+					margin-left: 17px;
+					margin-top: 3px;
+				}
+
+					#header .sm .navbar-collapse > ul > li > a {
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-a > a {
+						padding-top: 8px;
+						padding-bottom: 8px;
+						border: none;
+					}
+
+						#header .sm .navbar-collapse > ul > li.header-a > a:hover {
+							border: none;
+						}
+
+					#header .sm .navbar-collapse > ul > li.header-button#phone {
+						background-image: none;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-button > a {
+						padding: 7px 10px;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-button#phone > a {
+						padding: 7px 10px;
+					}
+
+					#header .sm .navbar-collapse > ul > li.header-num {
+						padding: 8px 0;
+					}
+
+	#footer {
+	}
+
+		#footer #go-top {
+			width: 34px;
+			height: 31px;
+		}
+
+			#footer #go-top:hover {
+				bottom: 9px;
+			}
+
+		#footer #part1 {
+		}
+
+			#footer #part1 > h1 {
+				font-size: 20px;
+				margin-top: 30px;
+				margin-bottom: 20px;
+			}
+
+			#footer #part1 .icon {
+				margin-right: 20px;
+				margin-bottom: 30px;
+			}
+
+				#footer #part1 .icon:nth-child(2) {
+					margin-right: 9.2px;
+				}
+
+				#footer #part1 .icon > p {
+					font-size: 12px;
+				}
+
+				#footer #part1 .icon#icon1 > a {
+					width: 74.4px;
+					height: 65.6px;
+					margin-bottom: 4.5px;
+				}
+
+				#footer #part1 .icon#icon2 > a {
+					width: 93.2px;
+					height: 67.6px;
+					margin-bottom: 2px;
+				}
+
+				#footer #part1 .icon#icon3 > a {
+					width: 68.8px;
+					height: 69.2px;
+				}
+
+		#footer #part2 {
+		}
+
+			#footer #part2 .list {
+				margin-top: 15px;
+				margin-bottom: 10px;
+				margin-left: 3%;
+				margin-right: 3%;
+			}
+
+				#footer #part2 .list > a {
+					font-size: 12px;
+					margin-bottom: 12px;
+				}
+
+				#footer #part2 .list > p {
+					font-size: 12px;
+				}
+
+				#footer #part2 .list .title {
+					font-size: 14px;
+				}
+
+				#footer #part2 .list .footer-line {
+					width: 87px;
+					height: 2px;
+					margin-top: 10px;
+					margin-bottom: 20px;
+				}
+
+				#footer #part2 .list #wechat {
+					width: 25px;
+					height: 25px;
+					margin-top: 10px;
+				}
+
+		#footer #part3 {
+		}
+
+			#footer #part3 > div {
+				font-size: 12px;
+				width: 100%;
+				margin: 0;
+			}
+
+			#footer #part3 #footer-p1 {
+				padding-top: 10px;
+			}
+
+			#footer #part3 #footer-p2 {
+				padding-top: 5px;
+				padding-bottom: 10px;
+			}
+}
+
+/*navbar-fixed-top*/
+@media screen and (min-width: 1580px) {
+	#banner {
+		margin-top: 120px;
+	}
+}
+
+@media screen and (min-width: 1060px) and (max-width: 1579px) {
+	#banner {
+		margin-top: 81px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1059px) {
+	#banner {
+		margin-top: 60px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#banner {
+		margin-top: 50px;
+	}
+}

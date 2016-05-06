@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feature</title>
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/header_footer-linkchain.css">
+	<link rel="stylesheet" href="css/feature.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-default" id="header">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<img class="navbar-brand" src="img/header_footer-linkchain/logo.png" />
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="navbar-collapse collapse" id="navbar-collapse" align="right">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="#">首页</a>
+				</li>
+				<li>
+					<a href="#" class="active">产品</a>
+				</li>
+				<li>
+					<a href="#">关于我们</a>
+				</li>
+				<li>
+					<a href="#">登录</a>
+				</li>
+				<li>
+					<a href="http://linkchain360.chinacloudapp.cn/auth/register" class="button">申请试用</a>
+				</li>
+			</ul>
+		</div>
+		<!-- .navbar-collapse -->
+	</nav>
+
+	<div id="all" style="margin-top: 0;">
+		<div id="sidebar" align="center">
+			<ul>
+				<li>预算管理</li>
+				<li>采购申请</li>
+				<li>采购订单</li>
+				<li>收货管理</li>
+				<li>发票管理</li>
+				<li>付款管理</li>
+				<li>供应商管理</li>
+				<li>支出分析</li>
+			</ul>
+		</div><div id="content">
+		</div><div id="picture">
+			<img />
+			<div id="points" align="right"></div>
+		</div>
+	</div>
+
+	<footer>
+		<div id="footer" align="center">
+			<div>
+				<div id="left">
+					<img src="img/header_footer-linkchain/footer.png" width="100" height="100" />
+				</div><div id="right" align="left">
+					<p>地址：上海市杨浦区国通路133号同和国际大厦B座901室</p>
+					<p>热线：15800326028</p>
+					<div id="wechat" data-toggle="modal" data-target="#wechat-img"></div>
+					<p>©2016.Terms & Privacy.Sitemap</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="wechat-img">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body">
+						<img src="img/header_footer-linkchain/wechat-img.jpg" />
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</footer>
+
+	<script>
+		var ua = navigator.userAgent.toLowerCase();
+		var ie = /(msie\s|trident.*rv:)([\w.]+)/;
+		var match = ie.exec(ua);
+		if (match != null) {
+			if (match[2] == '10.0' || match[2] == '11.0') {
+				if (window.screen.availWidth >= 768) {
+					$('#footer #go-top').css({ 'right': '17px' });
+				}
+			}
+		}
+
+		var itemIndex = 0;
+		var items = [
+			{
+				contents: [
+					'成本中心：企业可以指定自己的成本中心，包括部门制成本中心或项目制成本中心。',
+					'预算科目：企业可以根据自己的需要设置预算科目，编辑预算。',
+					'预算管理：用户可以选择某预算，查看预算的使用情况，包括当前已申请、已使用、剩余预算等数据，及时监控预算使用情况。'
+				],
+				imgs: [
+					'img/feature/feature-img1-1.png',
+					'img/feature/feature-img1-2.png',
+					'img/feature/feature-img1-3.png',
+				]
+			},
+			{
+				contents: [
+					'流程设定：提供了强大的流程定义能力，用户可以根据不同的采购类型定义不同的审批路径，然后可以对该类型的采购申请流程进行详细的定义。',
+					'发起采购需求：用户都可以根据需要提出采购申请。'
+				],
+				imgs: [
+					'img/feature/feature-img2-1.png',
+					'img/feature/feature-img2-2.png'
+				]
+			},
+			{
+				contents: [
+					'流程定义：企业可以根据自己的需要设置流程执行过程、流程执行人、执行逻辑。',
+					'无PR采购订单：支持类似贸易型企业的模式，在没有需求方参与采购需求的情况下直接发起采购订单并进行后续的管理。',
+					'有PR采购订单：常规的企业内部需求模式，在需求方进行预算控制下的需求审核流程之后，发起采购订单并进行后续的管理。'
+				],
+				imgs: [
+					'img/feature/feature-img3-1.png',
+					'img/feature/feature-img3-2.png',
+					'img/feature/feature-img3-3.png'
+				]
+			},
+			{
+				contents: [
+					'收货提醒：收货周期的到期自动提醒，收货日历一目了然。',
+					'收货确认：收货部门收到货物后填写收货单，收取合格物品。'
+				],
+				imgs: [
+					'img/feature/feature-img4-1.jpg',
+					'img/feature/feature-img4-2.png'
+				]
+			},
+			{
+				contents: [
+					'开票提醒：未收到发票清楚展现，可以催办供应商开具发票。',
+					'发票录入：采购发票集中录入和查询，保证订单发票收货单的完整对应。'
+				],
+				imgs: [
+					'img/feature/feature-img5-1.jpg',
+					'img/feature/feature-img5-2.png'
+				]
+			},
+			{
+				contents: [
+					'付款流程定义：从业务部门的审核到财务部门的审核，保证三单合一之后的合规支付。',
+					'付款提醒：根据付款周期提供付款日历，清楚提示付款任务与计划。',
+					'付款申请填写：关注采购的结果审核以及付款的合规性，表单清晰简单，审批目的明确。'
+				],
+				imgs: [
+					'img/feature/feature-img6-1.png',
+					'img/feature/feature-img6-2.png',
+					'img/feature/feature-img6-3.png'
+				]
+			},
+			{
+				contents: [
+					'供应商信息维护：供应商信息的主数据维护。'
+				],
+				imgs: [
+					'img/feature/feature-img7-1.jpg'
+				]
+			},
+			{
+				contents: [
+					'预算维度分析采购支出数据；物品维度分析采购成本及变化'
+				],
+				imgs: [
+					'img/feature/feature-img8-1.png'
+				]
+			}
+		];
+		setContent(0);
+		setPoint(0);
+		setContentsEvent();
+		setPointsEvent();
+		$('#sidebar > ul > li').eq(0).addClass('active');
+		$('#picture > img').attr({ 'src': items[itemIndex].imgs[0] });
+
+		$('#sidebar > ul > li').on('click', function () {
+			if (itemIndex == $(this).index()) {
+				return;
+			}
+			itemIndex = $(this).index();
+			$('#sidebar > ul > li').removeClass('active');
+			$(this).addClass('active');
+			setContent(itemIndex);
+			setPoint(itemIndex);
+			setContentsEvent();
+			setPointsEvent();
+			$('#picture > img').fadeOut(200, function () {
+				$('#picture > img').attr({ 'src': items[itemIndex].imgs[0] }).fadeIn(700);
+			});
+		});
+
+		var param = GetRequest();
+		var urlItemIndex = param['item'];
+		if (urlItemIndex != undefined) {
+			itemIndex = parseInt(urlItemIndex) - 1;
+			$('#sidebar > ul > li').removeClass('active');
+			$('#sidebar > ul > li').eq(itemIndex).addClass('active');
+			setContent(itemIndex);
+			setPoint(itemIndex);
+			setContentsEvent();
+			setPointsEvent();
+		}
+
+		function setContentsEvent() {
+			$('#content > p').on('click', function () {
+				$('#content > p').removeClass('active');
+				$(this).addClass('active');
+				var index = $(this).index();
+				index = --index / 2;
+				$('#picture #points > div').removeClass('active');
+				$('#picture #points > div').eq(index).addClass('active');
+				$('#picture > img').fadeOut(200, function () {
+					$('#picture > img').attr({ 'src': items[itemIndex].imgs[index] }).fadeIn(700);
+				});
+			});
+		}
+
+		function setPointsEvent() {
+			$('#picture #points > div').on('click', function () {
+				$('#picture #points > div').removeClass('active');
+				$(this).addClass('active');
+				var index = $(this).index();
+				$('#content > p').removeClass('active');
+				$('#content > p').eq(index).addClass('active');
+				$('#picture > img').fadeOut(200, function () {
+					$('#picture > img').attr({ 'src': items[itemIndex].imgs[index] }).fadeIn(700);
+				});
+			});
+		}
+
+		function setContent(index) {
+			$('#content').children().remove();
+			$('#content').append('<div class="line"></div>');
+			var length = items[index].contents.length;
+			for (var i = 0; i < length; ++i) {
+				$('#content').append('<p></p>');
+				$('#content').append('<div class="line"></div>');
+			}
+			$('#content > p').each(function (index, element) {
+				$(element).text(items[itemIndex].contents[index]);
+			});
+			$('#content > p').eq(0).addClass('active');
+		}
+
+		function setPoint(index) {
+			$('#picture #points').children().remove();
+			var length = items[index].imgs.length;
+			for (var i = 0; i < length; ++i) {
+				$('#picture #points').append('<div></div>');
+			}
+			$('#picture #points > div').eq(0).addClass('active');
+		}
+
+		function GetRequest() {
+			var url = location.search;
+			var theRequest = new Object();
+			if (url.indexOf("?") != -1) {
+				var str = url.substr(1);
+				strs = str.split("&");
+				for (var i = 0; i < strs.length; i++) {
+					theRequest[strs[i].split("=")[0]] = decodeURI(strs[i].split("=")[1]);
+				}
+			}
+			return theRequest;
+		};
+	</script>
+</body>
+
+</html>

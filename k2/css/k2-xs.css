@@ -1,0 +1,443 @@
+@media (max-width: 767px) {
+	#first-box {
+	}
+
+		#first-box #play-box {
+			width: 21em;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+			#first-box #play-box #play-button {
+				display: block;
+				width: 23.5px;
+				height: 20.5px;
+			}
+
+			#first-box #play-box #play-text {
+				margin-top: 5px;
+				margin-left: 0;
+				margin-bottom: 0;
+			}
+
+				#first-box #play-box #play-text > a {
+					font-size: 12px;
+					margin-bottom: 2px;
+				}
+
+			#first-box #play-box .line {
+				margin-left: -5px;
+			}
+
+	#second-box {
+	}
+
+		#second-box #second-box-p {
+			margin-top: 50px;
+		}
+
+			#second-box #second-box-p #second-box-p1 {
+				font-size: 20px;
+				padding-right: 18px;
+			}
+
+			#second-box #second-box-p #second-box-p2 {
+				font-size: 14px;
+				padding-top: 4px;
+				padding-left: 13px;
+			}
+
+			#second-box #second-box-p #second-box-p3 {
+				font-size: 12px;
+				margin-top: 10px;
+			}
+
+		#second-box #second-box-group {
+			width: 320px;
+			margin-top: 30px;
+			margin-bottom: 50px;
+		}
+
+			#second-box #second-box-group .box-group .box {
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			#second-box #second-box-group .box .en {
+				font-size: 12px;
+			}
+
+			#second-box #second-box-group .box .cn {
+				font-size: 16px;
+			}
+
+			#second-box #second-box-group .box .cn2 {
+				font-size: 12px;
+			}
+
+				#second-box #second-box-group .box .cn2 .line-small {
+					width: 1px;
+					margin: 0 1%;
+				}
+
+			#second-box #second-box-group #box1 {
+				position: relative;
+				width: 320px;
+				height: 55px;
+			}
+
+				#second-box #second-box-group #box1 .line {
+					display: none;
+				}
+
+				#second-box #second-box-group #box1 .en {
+					margin-top: 8px;
+				}
+
+				#second-box #second-box-group #box1.cn {
+					margin-top: 8px;
+				}
+
+			#second-box #second-box-group #box2 {
+				position: relative;
+				width: 320px;
+				height: 55px;
+				margin: 5px 0 0 0;
+			}
+
+				#second-box #second-box-group #box2 .line {
+					display: none;
+				}
+
+				#second-box #second-box-group #box2 .en {
+					margin-top: 8px;
+				}
+
+				#second-box #second-box-group #box2 .cn {
+					margin-top: 8px;
+				}
+
+			#second-box #second-box-group #box3 {
+				position: relative;
+				width: 320px;
+				height: 55px;
+				margin-top: 5px;
+			}
+
+				#second-box #second-box-group #box3 .line {
+					display: none;
+				}
+
+				#second-box #second-box-group #box3 .en {
+					margin-top: 8px;
+				}
+
+				#second-box #second-box-group #box3 .cn {
+					margin-top: 8px;
+				}
+
+			#second-box #second-box-group #box4 {
+				position: relative;
+				width: 320px;
+				height: 80px;
+				margin-top: 5px;
+			}
+
+				#second-box #second-box-group #box4 .line {
+					display: none;
+				}
+
+				#second-box #second-box-group #box4 .en {
+					margin-top: 10px;
+				}
+
+				#second-box #second-box-group #box4 .cn {
+					margin-top: 8px;
+				}
+
+				#second-box #second-box-group #box4 .cn2 {
+					margin-top: 8px;
+				}
+
+					#second-box #second-box-group #box4 .cn2 .line-small {
+						height: 12px;
+						margin: 0 5px;
+					}
+
+			#second-box #second-box-group #box5 {
+				position: relative;
+				width: 320px;
+				height: 100px;
+				margin: 5px 0 0 0;
+			}
+
+				#second-box #second-box-group #box5 .line {
+					display: none;
+				}
+
+				#second-box #second-box-group #box5 .en {
+					margin-top: 10px;
+				}
+
+				#second-box #second-box-group #box5 .cn {
+					margin-top: 8px;
+				}
+
+				#second-box #second-box-group #box5 .cn2 {
+					margin-top: 8px;
+				}
+
+					#second-box #second-box-group #box5 .cn2 .line-small {
+						height: 29px;
+						margin: 0 5px;
+					}
+
+			#second-box #second-box-group #box6 {
+				position: relative;
+				width: 320px;
+				height: 55px;
+				margin-top: 5px;
+			}
+
+				#second-box #second-box-group #box6 .line {
+					display: none;
+				}
+
+				#second-box #second-box-group #box6 .en {
+					margin-top: 8px;
+				}
+
+				#second-box #second-box-group #box6 .cn {
+					margin-top: 8px;
+				}
+
+	#third-box {
+	}
+
+		#third-box #third-box-group-lg {
+			display: none;
+		}
+
+		#third-box #third-box-group-sm {
+			display: block;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+			#third-box #third-box-group-sm #myCarousel-third-box {
+				width: 240px;
+			}
+
+				#third-box #third-box-group-sm #myCarousel-third-box .carousel-control {
+					color: #222;
+					background-image: none;
+				}
+
+					#third-box #third-box-group-sm #myCarousel-third-box .carousel-control .fa {
+						font-size: 60px;
+					}
+
+		#third-box #part1 {
+			display: inline-block;
+			vertical-align: top;
+			float: none;
+			margin-top: 0;
+			margin-left: 0;
+		}
+
+			#third-box #part1 #third-box-p1 {
+				display: block;
+				font-size: 20px;
+				padding: 0;
+				border-right: none;
+			}
+
+			#third-box #part1 #third-box-p2 {
+				display: block;
+				font-size: 14px;
+				padding-top: 4px;
+				padding-left: 0;
+			}
+
+			#third-box #part1 #third-box-p3 {
+				display: none;
+			}
+
+			#third-box #part1 .list {
+				margin-top: 25px;
+			}
+
+				#third-box #part1 .list > a {
+					font-size: 14px;
+					padding-bottom: 3px;
+					margin-bottom: 18px;
+				}
+
+			#third-box #part1 #third-box-list2 {
+				display: none;
+			}
+
+			#third-box #part1 #third-box-list3 {
+				display: none;
+			}
+
+		#third-box #part2 {
+			display: inline-block;
+			vertical-align: top;
+			float: none;
+		}
+
+			#third-box #part2 .outer-img {
+				margin-left: 0;
+			}
+
+				#third-box #part2 .outer-img .inner-img {
+					width: 180px;
+				}
+
+				#third-box #part2 .outer-img .img-footer {
+				}
+
+					#third-box #part2 .outer-img .img-footer .cn {
+						font-size: 16px;
+						margin-top: 16px;
+						margin-bottom: 5.8px;
+					}
+
+					#third-box #part2 .outer-img .img-footer .en {
+						font-size: 12px;
+						margin-bottom: 16px;
+					}
+
+	#forth-box {
+	}
+
+		#forth-box #icons {
+			margin-top: 50px;
+			margin-left: 15px;
+		}
+
+			#forth-box #icons .icon {
+				width: 60px;
+				height: 32px;
+			}
+
+		#forth-box #point {
+			width: 300px;
+			height: 9px;
+			background-image: url("../img/k2/point-xs.png");
+			margin-top: 22px;
+		}
+
+		#forth-box #forth-box-p {
+			font-size: 12px;
+			width: 300px;
+			height: 96px;
+			margin-top: 45px;
+		}
+
+		#forth-box > a {
+			font-size: 12px;
+			padding: 10px 20px;
+			margin-top: 30px;
+			margin-bottom: 50px;
+		}
+
+	#fifth-box {
+	}
+
+		#fifth-box .box {
+			width: 303px;
+			height: 20.6px;
+			font-size: 12px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			margin-left: 15px;
+		}
+
+			#fifth-box .box .icon {
+				width: 12.2px;
+				height: 18.6px;
+				background-size: 12.2px 12.2px;
+				margin: 1px 9px;
+			}
+
+			#fifth-box .box > div {
+				line-height: 18.6px;
+				margin-left: 30px;
+			}
+
+			#fifth-box .box > a {
+				line-height: 20.6px;
+				padding: 0 8px;
+			}
+
+		#fifth-box #fifth-box-p {
+			width: 300px;
+			margin-top: 50px;
+		}
+
+			#fifth-box #fifth-box-p #fifth-box-p1 {
+				font-size: 20px;
+				padding-right: 18px;
+			}
+
+			#fifth-box #fifth-box-p #fifth-box-p2 {
+				font-size: 14px;
+				width: auto;
+				padding-top: 4px;
+				padding-left: 13px;
+			}
+
+			#fifth-box #fifth-box-p p {
+				display: inline-block;
+				font-size: 12px;
+			}
+
+		#fifth-box #inputs {
+			width: 300px;
+			margin-top: 20px;
+		}
+
+			#fifth-box #inputs p {
+				font-size: 12px;
+				margin-top: 10px;
+				margin-bottom: 0;
+			}
+
+			#fifth-box #inputs .harf {
+			}
+
+				#fifth-box #inputs .harf#right {
+					margin-left: 0;
+				}
+
+				#fifth-box #inputs .harf input {
+					width: 296px;
+					margin-top: 11px;
+					height: 26.4px;
+				}
+
+				#fifth-box #inputs .harf .under {
+					margin-top: 9.7px;
+				}
+
+			#fifth-box #inputs #bottom p {
+				margin-top: 12px;
+			}
+
+			#fifth-box #inputs #bottom textarea {
+				width: 298px;
+				height: 80px;
+				margin-top: 9.7px;
+			}
+
+			#fifth-box #inputs #submit {
+				width: 122px;
+				height: 31px;
+				font-size: 16px;
+				line-height: 31px;
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+}

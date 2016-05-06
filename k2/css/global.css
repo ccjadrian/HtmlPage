@@ -1,0 +1,38 @@
+* {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+:after, :before {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft YaHei", Arial, sans-serif;
+	line-height: 1;
+}
+
+i, cite, em, var, address, dfn {
+	font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	a:focus {
+		text-decoration: none;
+	}

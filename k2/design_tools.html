@@ -1,0 +1,538 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>设计工具</title>
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://www.k2software.cn/sites/all/themes/corporate/favicon.ico">
+	<script src="http://www.k2software.cn/sites/default/files/js/company/jquery.min.js"></script>
+	<script src="http://www.k2software.cn/sites/default/files/js/company/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/header_footer-k2.css">
+	<link rel="stylesheet" href="css/banner.css">
+	<link rel="stylesheet" href="css/design_tools.css">
+	<link rel="stylesheet" href="css/design_tools-md.css">
+	<link rel="stylesheet" href="css/design_tools-sm.css">
+	<link rel="stylesheet" href="css/design_tools-xs.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" id="header">
+		<div class="lg" align="center">
+			<div class="logo">
+				<a href="http://www.k2software.cn">
+					<img src="img/header_footer-k2/k2_logo.png" />
+				</a>
+			</div><div class="header-a">
+				<a target="_blank" href="http://www.k2software.cn">首页</a>
+			</div><div class="header-a">
+				<a target="_blank" href="http://www.k2software.cn/product">产品</a>
+			</div><div class="header-a">
+				<a target="_blank" href="http://www.k2software.cn/zh-hans/solutions">解决方案</a>
+			</div><div class="header-a">
+				<a target="_blank" href="http://www.k2software.cn/zh-hans/clients">客户</a>
+			</div><div class="header-a">
+				<a target="_blank" href="http://www.k2software.cn/zh-hans/partner">伙伴</a>
+			</div><div class="header-button">
+				<a target="_blank" href="http://bpm.k2software.cn">社区&资源</a>
+			</div><div class="header-button" id="phone">
+				<a target="_blank" href="http://www.k2software.cn/zh-hans/contact-us">申请试用</a>
+			</div><div class="header-num">
+				400-686-5318
+			</div>
+		</div>
+		<div class="sm">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="http://www.k2software.cn">
+					<img class="navbar-brand" src="img/header_footer-k2/k2_logo.png" />
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="navbar-collapse collapse" id="navbar-collapse" align="right">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="header-a">
+						<a target="_blank" href="http://www.k2software.cn">首页</a>
+					</li>
+					<li class="header-a">
+						<a target="_blank" href="http://www.k2software.cn/product">产品</a>
+					</li>
+					<li class="header-a">
+						<a target="_blank" href="http://www.k2software.cn/zh-hans/solutions">解决方案</a>
+					</li>
+					<li class="header-a">
+						<a target="_blank" href="http://www.k2software.cn/zh-hans/clients">客户</a>
+					</li>
+					<li class="header-a">
+						<a target="_blank" href="http://www.k2software.cn/zh-hans/partner">伙伴</a>
+					</li>
+					<li class="header-button">
+						<a target="_blank" href="http://bpm.k2software.cn">社区&资源</a>
+					</li>
+					<li class="header-button" id="phone">
+						<a target="_blank" href="http://www.k2software.cn/zh-hans/contact-us">联系我们</a>
+					</li>
+					<li class="header-num">
+						400-686-5318
+					</li>
+				</ul>
+			</div>
+			<!-- .navbar-collapse -->
+		</div>
+	</nav>
+
+	<div id="banner" align="center">
+		<div id="banner-text" align="left">
+			<p class="cn">K2给你的是一体化平台</p>
+			<p class="cn">贯穿业务流程管理生命周期全过程</p>
+			<p class="en">K2 OFFERS YOU A UNIFIED PLATFORM</p>
+			<a target="_blank" href="http://bpm.k2software.cn/zh-hans/videos?tid=300">立即体验</a>
+		</div>
+		<a target="_blank" href="http://bpm.k2software.cn/zh-hans/videos?tid=300" id="next"></a>
+	</div>
+
+	<div id="top-bar" align="center">
+		<a href="./bpm.html">BPM平台</a>
+		<a href="./design_tools.html" class="active">设计工具</a>
+		<a href="./process_portal.html">流程门户</a>
+		<a href="./mobile_portal.html">移动门户</a>
+		<a href="./sso.html">单点登录</a>
+		<a href="./esb.html">ESB企业服务总线</a>
+	</div>
+
+	<div id="section1" align="center">
+		<h1>K2 Designers分为三种设计工具</h1>
+		<div id="part2">
+			<p>
+				<span class="en">K2 designer：</span><span>给IT人员使用的，无代码</span>
+			</p>
+			<p>
+				<span class="en">KStar Designer：</span><span>给业务人员使用的，无代码，向导化</span>
+			</p>
+			<p>
+				<span class="en">K2 for Visual Studio：</span><span>给开发人员使用的，具备代码编辑能力</span>
+			</p>
+		</div>
+		<p id="part3">这三种设计工具都是既能设计流程也能设计或开发出表单，方便业务与IT共同参与到流程设计中来。</p>
+	</div>
+
+	<div id="section2" align="center">
+		<h1>K2 Designer</h1>
+		<div id="part2">
+			<p id="p1">创建一个直观的用户界面是困难和繁琐的，每次开发一个界面都需要重新编写代码或者是手动生成相关的代码。</p>
+			<p id="p2">据权威机构统计，这项工作占到整个开发耗时的40%以上。</p>
+			<p id="p3">现在...</p>
+			<p id="p4">有了K2 smartforms基于Web的流程设计器（也称为K2 designer），它是无代码的，即便没有技术背景的流程设计者也可以简单创造复杂的流程模式。当你开始设计一支流程时，流程设计向导就打开了。K2 smartforms提供了视图、表单、控制、规则，这些对象的配置都是向导驱动的，向导通过每一个配置步骤引导着K2 designer流程设计器。</p>
+		</div>
+		<div id="part3">
+			<img src="img/design_tools/section2-part3-img.png" />
+			<div>
+				<span>可复用的拖拽控件</span><span>紧密的流程集成</span><span>方便整合多系统的数据</span><span>灵活的可扩展能力</span>
+			</div>
+		</div>
+		<div id="part4">
+			<img src="img/design_tools/section2-part4-img.png" />
+			<p>K2 Designer，能让用户快速、简单、无代码开发并自动生产业务流程、表单，整合系统数据，开箱即用。由于K2 smartforms是基于SmartObject作为其数据对象载体，集成性强大，甚至可将异构系统的数据直接用表单展现出来。</p>
+		</div>
+		<div class="box">
+			<div class="text">
+				<a target="_blank" href="http://bpm.k2software.cn/zh-hans/downloads?tid=219">＂用K2 smartforms开发一个应用程序究竟比ASP.NET快多少？＂我们推测是快4倍。但经过测试发现，我们错了......</a>
+				<div class="line"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="section3" align="center">
+		<h1>KStar Designer</h1>
+		<p>KStar Designer，完全无代码，节约80%以上的开发量，即使是不懂IT的业务人员，也可以轻而易举完成流程搭建，</p>
+		<p>最快只需要3分钟配置一支流程，鼓励业务人员自由设计流程和部署。</p>
+		<div id="part2">
+			<h2>一支流程，只需3分钟！</h2>
+			<div id="icons">
+				<div class="icon" id="icon1">
+					<p class="num">20%</p>
+					<p class="cn">超简单流程</p>
+				</div><div class="icon" id="icon2">
+					<p class="num">40%</p>
+					<p class="cn">简单流程</p>
+				</div><div class="icon" id="icon3">
+					<p class="num">30%</p>
+					<p class="cn">一般流程</p>
+				</div><div class="icon" id="icon4">
+					<p class="num">10%</p>
+					<p class="cn">复杂流程</p>
+				</div>
+			</div>
+			<div id="panel">
+				<div class="content" id="content1">
+					<h2>超简单流程</h2>
+					<div class="col">
+						<p>表单：字段数＜10</p>
+						<p>流程：节点数＜5</p>
+						<p>流程场景：纯串签</p>
+						<p>流程政策：无</p>
+						<p>业务功能：无</p>
+						<p>外部系统集成：仅人员</p>
+					</div><div class="col">
+						<p>推荐建模方式</p>
+						<p>KStar自主设计流程，表单</p>
+						<p>KStar呈现</p>
+					</div><div class="col">
+						<p>开发KPI＜0.5人天</p>
+					</div>
+				</div>
+				<div class="content" id="content2">
+					<h2>简单流程</h2>
+					<div class="col">
+						<p>表单：10＜字段数＜30</p>
+						<p>流程：5＜节点数＜10</p>
+						<p>流程场景：串签+简单（分支+会签+加签）</p>
+						<p>流程政策：维度数＜＝2</p>
+						<p>业务功能：简单</p>
+						<p>外部系统集成：仅人员+邮件</p>
+					</div><div class="col">
+						<p>推荐建模方式</p>
+						<p>流程：K2 Studio</p>
+						<p>表单：K2 smartforms</p>
+						<p>KStar装配、呈现</p>
+					</div><div class="col">
+						<p>开发KPI＜3人天</p>
+					</div>
+				</div>
+				<div class="content" id="content3">
+					<h2>一般流程</h2>
+					<div class="col">
+						<p>表单：30＜字段数＜50</p>
+						<p>流程：10＜节点数＜20</p>
+						<p>流程场景：分支一般，基本场景全覆盖</p>
+						<p>流程政策：维度数＜＝3</p>
+						<p>业务功能：简单</p>
+						<p>外部系统集成：＜＝3</p>
+					</div><div class="col">
+						<p>推荐建模方式</p>
+						<p>流程：K2 Studio</p>
+						<p>表单：K2 smartforms</p>
+						<p>KStar装配、呈现</p>
+					</div><div class="col">
+						<p>开发KPI＜8人天</p>
+					</div>
+				</div>
+				<div class="content" id="content4">
+					<h2>复杂流程</h2>
+					<div class="col">
+						<p>表单：字段数＞50</p>
+						<p>流程：节点数＞20</p>
+						<p>流程场景：多分支+子流程</p>
+						<p>流程政策：维度数＞3</p>
+						<p>业务功能：简单</p>
+						<p>外部系统集成：＞3</p>
+					</div><div class="col">
+						<p>推荐建模方式</p>
+						<p>流程：K2 Studio</p>
+						<p>表单：.NET纯开发（利用 KStar已封装模块）</p>
+						<p>KStar装配、呈现</p>
+					</div><div class="col">
+						<p>开发KPI＜15人天</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="part3">
+			<h2>6步做完一支流程设计</h2>
+			<p>向导化设计器，如何工作的？</p>
+			<p>只需要基本信息-表单设计-流程环节-环节执行人-表单权限就能完成一只简单的流程。</p>
+			<div id="section3-content">
+				<div class="arrow" id="left"></div>
+				<div class="image-box">
+					<img id="front" />
+					<img id="back" />
+				</div>
+				<div class="arrow" id="right"></div>
+			</div>
+			<div id="points">
+				<div class="point" id="point1">
+				</div><div class="point" id="point2">
+				</div><div class="point" id="point3">
+				</div><div class="point" id="point4">
+				</div><div class="point" id="point5">
+				</div><div class="point" id="point6">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="section4" align="center">
+		<h1>K2 for Visual Studio</h1>
+		<p>设计器的集大成者，具备丰富的代码编辑能力，适合开发人员使用。</p>
+		<p>该工具主要功能特性包括：</p>
+		<div class="section4-group" id="group1">
+			<div class="content" id="content1">
+				<h4>图形化流程设计视图</h4>
+				<p>允许用户以拖拽方式设计流程，使用符合WFMC标准的流程描述元素(如，流程步骤使用Activity元素等)进行流程设计，设计出的流程图简洁明了，能直观反映出实际流程走向。</p>
+			</div>
+			<div class="content" id="content2">
+				<h4>无缝集成的编译、调试功能</h4>
+				<p>Output 能显示整个流程编译过程，Error List 在流程编译出错时能主动监测到，断点设计允许程序员单步调试流程逻辑，Solutions视图用来管理流程项目，流程后台代码融合到智能代码编写环境中。</p>
+			</div>
+		</div><div class="section4-group" id="group2">
+			<div class="content" id="content3">
+				<h4>配置式的流程逻辑</h4>
+				<p>通过流程逻辑规则，简化了流程设计的复杂度，借助这些流程规则能轻松实现复杂的审批路由、并串混合流程、任务超时提醒或转派、父子流程关联等流程逻辑。</p>
+			</div>
+			<div class="content" id="content4">
+				<h4>提供丰富的流程向导模板</h4>
+				<p>流程设计人员可以利用流程向导模板轻松开发出符合企业实际情况的流程，开发人员也可自定义流程向导模板于各个流程中复用。</p>
+			</div>
+		</div>
+		<img src="img/design_tools/section4-img.png" />
+	</div>
+
+	<footer id="footer">
+		<div align="center">
+			<a href="#" id="go-top" onclick="goTop(); return false;"></a>
+			<div id="part1">
+				<h1>需要查阅更多资源？</h1>
+				<div class="icon" id="icon1">
+					<a target="_blank" href="http://k2software.cn/zh-hans/solutions"></a>
+					<p>K2的独特价值</p>
+					<p>在于解决方案能力</p>
+				</div><div class="icon" id="icon2">
+					<a target="_blank" href="http://k2software.cn/zh-hans/clients"></a>
+					<p>客户</p>
+					<p>如何使用K2？</p>
+				</div><div class="icon" id="icon3">
+					<a target="_blank" href="http://bpm.k2software.cn/zh-hans/videos?tid=300"></a>
+					<p>1分钟</p>
+					<p>DEMO课堂</p>
+				</div>
+			</div>
+			<div id="part2">
+				<div class="list" align="left">
+					<a target="_blank" class="title" href="http://www.k2software.cn/zh-hans/about-us">关于我们</a>
+					<div class="footer-line"></div>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/about-us">公司介绍</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/honor">荣誉资质</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/news">新闻动态</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/events">最新活动</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/recruitment">加入我们</a>
+				</div><div class="list" align="left">
+					<a target="_blank" class="title" href="http://bpm.k2software.cn/zh-hans/bpm">BPM专题</a>
+					<div class="footer-line"></div>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/basicpage/bpmoa">OA替换</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/bpm-selection">BPM选型</a>
+					<a target="_blank" href="http://www.k2software.cn/product/k2-mobile">移动审批</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/product/cloudbpm">云BPM</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/company">中小企业专区</a>
+				</div><div class="list" align="left">
+					<a target="_blank" class="title" href="http://www.k2software.cn/zh-hans/service">服务</a>
+					<div class="footer-line"></div>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/service">年度维护</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/technical-support">技术支持</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/implementation">实施服务</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/consultation">咨询服务</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/training">培训服务</a>
+					<a target="_blank" href="http://www.k2software.cn/zh-hans/maintenance">运维服务</a>
+				</div><div class="list" align="left">
+					<a target="_blank" class="title" href="http://bpm.k2software.cn/">社区&资源</a>
+					<div class="footer-line"></div>
+					<a target="_blank" href="http://bpm.k2software.cn/zh-hans/forumoverview">论坛</a>
+					<a target="_blank" href="http://bpm.k2software.cn/zh-hans/blog">博客</a>
+					<a target="_blank" href="http://bpm.k2software.cn/zh-hans/videos">视频</a>
+					<a target="_blank" href="http://bpm.k2software.cn/zh-hans/downloads">文档下载</a>
+				</div><div class="list" align="left">
+					<a target="_blank" class="title" href="http://www.k2software.cn/zh-hans/contact-us">联系我们</a>
+					<div class="footer-line"></div>
+					<p>咨询热线:</p>
+					<p>400-686-5318</p>
+					<p>售后服务（仅限K2客户）:</p>
+					<p>400-853-5368</p>
+					<p>联系邮箱</p>
+					<p>K2GCSERVICE@K2.COM</p>
+					<div id="wechat" data-toggle="modal" data-target="#wechat-img"></div>
+				</div>
+			</div>
+			<div id="part3">
+				<div id="footer-p1">
+					COPYRIGHT2016&copy 上海斯歌信息技术有限公司
+				</div><div id="footer-p2">
+					沪公网安备 31010102002002号
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="wechat-img">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body">
+						<img src="img/header_footer-k2/wechat-img.jpg" />
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</footer>
+
+	<script>
+		var ua = navigator.userAgent.toLowerCase();
+		var ie = /(msie\s|trident.*rv:)([\w.]+)/;
+		var match = ie.exec(ua);
+		if (match != null) {
+			if (match[2] == '10.0' || match[2] == '11.0') {
+				if (window.screen.availWidth >= 768) {
+					$('#footer #go-top').css({ 'right': '17px' });
+				}
+			}
+		}
+
+		var line = $('#section2 .box .text .line');
+		$('#section2 .box .text > a').hover(function () {
+			line.animate({ 'width': '100%' }, { duration: 500, queue: false });
+		}, function () {
+			line.animate({ 'width': 0 }, { duration: 500, queue: false });
+		});
+
+		var contentIndex = 0;
+		var panelPositionX = [
+			0,
+			0.225,
+			0.45,
+			0.675
+		];
+		var panel = $('#section3 #part2 #panel');
+		$('#section3 #part2 #panel .content').eq(contentIndex).show();
+		$('#section3 #part2 .icon').on('click', function (e) {
+			var contents = $('#section3 #part2 #panel .content');
+			var newIndex = $(this).index();
+
+			if ($(window).width() >= 768) {
+				var width = panel.css('width');
+				var positon = parseInt(width.slice(0, width.indexOf('px'))) * panelPositionX[newIndex];
+				positon = positon.toString() + 'px';
+				panel.animate({ 'background-position': positon }, { duration: 500, queue: false });
+			}
+
+			if (contentIndex != newIndex) {
+				contents.eq(contentIndex).fadeOut(100, function () {
+					contents.eq(newIndex).fadeIn(700);
+					contentIndex = newIndex;
+				});
+			}
+		});
+
+		var imgs = [
+			'img/design_tools/section3-part3-img-1.jpg',
+			'img/design_tools/section3-part3-img-2.jpg',
+			'img/design_tools/section3-part3-img-3.jpg',
+			'img/design_tools/section3-part3-img-4.jpg',
+			'img/design_tools/section3-part3-img-5.jpg',
+			'img/design_tools/section3-part3-img-6.jpg'
+		];
+		var index = 0;
+
+		$('#section3 #part3 #section3-content .image-box #front').attr('src', imgs[index]);
+		$("#section3 #part3 #section3-content .arrow#left").on('click', function (e) {
+			if (--index == -1) {
+				index = imgs.length - 1;
+			}
+			var front = $('#section3 #part3 #section3-content .image-box #front');
+			var back = $('#section3 #part3 #section3-content .image-box #back');
+			var points = $('#section3 #part3 #points .point');
+			back.css({ 'left': -back.width() }).attr('src', imgs[index]);
+			front.animate({ 'left': front.width() }, { duration: 500, queue: false, complete: function () { front.attr('id', 'back'); } });
+			back.animate({ 'left': 0 }, { duration: 500, queue: false, complete: function () { back.attr('id', 'front'); } });
+			points.removeClass('active').eq(index).addClass('active');
+		});
+		$("#section3 #part3 #section3-content .arrow#right").on('click', function (e) {
+			if (++index == imgs.length) {
+				index = 0;
+			}
+			var front = $('#section3 #part3 #section3-content .image-box #front');
+			var back = $('#section3 #part3 #section3-content .image-box #back');
+			var points = $('#section3 #part3 #points .point');
+			back.css({ 'left': back.width() }).attr('src', imgs[index]);
+			front.animate({ 'left': -front.width() }, { duration: 500, queue: false, complete: function () { front.attr('id', 'back'); } });
+			back.animate({ 'left': 0 }, { duration: 500, queue: false, complete: function () { back.attr('id', 'front'); } });
+			points.removeClass('active').eq(index).addClass('active');
+		});
+
+		$('#section3 #part3 #points .point').eq(0).addClass('active');
+		$('#section3 #part3 #points .point').on('click', function (e) {
+			var front = $('#section3 #part3 #section3-content .image-box #front');
+			var back = $('#section3 #part3 #section3-content .image-box #back');
+			var points = $('#section3 #part3 #points .point');
+			index = $(this).index();
+			back.css({ 'left': 0 }).attr('src', imgs[index]).hide();
+			front.fadeOut(100, function () {
+				back.fadeIn(700).attr('id', 'front');
+				front.css({ 'left': front.width() }).show().attr('id', 'back');
+			});
+			points.removeClass('active');
+			$(this).addClass('active');
+		});
+
+		function goTop(acceleration, time, offsetX, offsetY) {
+			var offset = $("#banner").css('margin-top');
+			offset = parseInt(offset.slice(0, offset.length - 2));
+
+			acceleration = acceleration || 0.1;
+			time = time || 16;
+			offsetX = offsetX || 0;
+			offsetY = offsetY || offset;
+
+			var x1 = 0;
+			var y1 = 0;
+			var x2 = 0;
+			var y2 = 0;
+			var x3 = 0;
+			var y3 = 0;
+
+			if (document.documentElement) {
+				x1 = document.documentElement.scrollLeft || 0;
+				y1 = document.documentElement.scrollTop || 0;
+			}
+
+			if (document.body) {
+				x2 = document.body.scrollLeft || 0;
+				y2 = document.body.scrollTop || 0;
+			}
+
+			var x3 = window.scrollX || 0;
+			var y3 = window.scrollY || 0;
+
+			var x = Math.max(x1, Math.max(x2, x3));
+			var y = Math.max(y1, Math.max(y2, y3));
+
+			var speed = 1 + acceleration;
+			window.scrollTo(Math.floor(x / speed), Math.floor(y / speed));
+
+			if (x > offsetX || y > offsetY) {
+				var invokeFunction = "goTop(" + acceleration + ", " + time + ")";
+				window.setTimeout(invokeFunction, time);
+			}
+		}
+	</script>
+	
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?32fba56bf0eee7ba81c806439fb2c259";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+	
+</body>
+
+</html>

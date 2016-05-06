@@ -1,0 +1,428 @@
+#section1 {
+	overflow: hidden;
+}
+
+	#section1 .title-cn {
+		margin-top: 112px;
+	}
+
+		#section1 .title-cn > div {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+			#section1 .title-cn > div.title-line {
+				width: 8px;
+				height: 59px;
+				background-image: url(../img/bpm/title-line.png);
+				background-size: 100% 100%;
+			}
+
+			#section1 .title-cn > div.title {
+				font-size: 50px;
+				margin: 0 15px;
+			}
+
+	#section1 > p {
+		font-size: 20px;
+		margin-bottom: 18px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+		#section1 > p:nth-child(2) {
+			margin-top: 34px;
+		}
+
+		#section1 > p:nth-child(3) {
+			margin-bottom: 0;
+		}
+
+	#section1 #section1-content {
+		display: inline-block;
+		margin-top: 80px;
+		margin-bottom: 125px;
+	}
+
+		#section1 #section1-content .section1-bar {
+			vertical-align: top;
+			width: 62px;
+			height: 362px;
+		}
+
+			#section1 #section1-content .section1-bar#section1-leftbar {
+				display: inline-block;
+				background-image: url(../img/bpm/section1-ul-leftbar.png);
+				background-size: 100% 100%;
+				margin-top: 25px;
+			}
+
+			#section1 #section1-content .section1-bar#section1-rightbar {
+				display: inline-block;
+				background-image: url(../img/bpm/section1-ul-rightbar.png);
+				background-size: 100% 100%;
+				margin-top: 18px;
+			}
+
+		#section1 #section1-content #section1-group1 {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		#section1 #section1-content #section1-group2 {
+			display: inline-block;
+			vertical-align: top;
+			font-size: 24px;
+			margin-top: 109px;
+			margin-left: 100px;
+		}
+
+			#section1 #section1-content #section1-group2 > p {
+				background-image: url(../img/bpm/section1-point.png);
+				background-size: 12px 14px;
+				background-position: left center;
+				background-repeat: no-repeat;
+				padding-left: 24px;
+				margin-bottom: 16px;
+			}
+
+		#section1 #section1-content #section1-group1 > div {
+			color: #fff;
+			font-size: 26px;
+			width: 170px;
+			height: 58px;
+			line-height: 58px;
+			background-image: url(../img/bpm/section1-ul-button.png);
+			background-size: 100% 100%;
+			margin-bottom: 28px;
+		}
+
+			#section1 #section1-content #section1-group1 > div:nth-last-child(1) {
+				margin-bottom: 0;
+			}
+
+#section2 {
+	overflow: hidden;
+	background-image: url(../img/bpm/section2-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+	#section2 .title-cn {
+		margin-top: 112px;
+	}
+
+		#section2 .title-cn > div {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+			#section2 .title-cn > div.title-line {
+				width: 8px;
+				height: 59px;
+				background-image: url(../img/bpm/title-line.png);
+				background-size: 100% 100%;
+			}
+
+			#section2 .title-cn > div.title {
+				font-size: 50px;
+				margin: 0 15px;
+			}
+
+	#section2 > h2 {
+		font-size: 30px;
+		margin-top: 32px;
+		margin-bottom: 0;
+	}
+
+	#section2 > p {
+		font-size: 20px;
+		margin: 0 10px;
+	}
+
+	#section2 .line {
+		width: 83px;
+		height: 1px;
+		background-image: url(../img/bpm/section2-line.png);
+		background-size: 100% 100%;
+		margin: 21px 0;
+	}
+
+	#section2 .section2-group#group1 {
+		margin-top: 65px;
+		margin-bottom: 85px;
+	}
+
+	#section2 .section2-group#group2 {
+		margin-bottom: 115px;
+	}
+
+	#section2 .section2-group .section2-content {
+		display: inline-block;
+		vertical-align: top;
+		width: 457px;
+		height: 157px;
+		background-image: url(../img/bpm/section2-content-bar.png);
+		background-size: 18px 100%;
+		background-position: left;
+		background-repeat: no-repeat;
+		margin-right: 50px;
+	}
+
+		#section2 .section2-group .section2-content:nth-last-child(1) {
+			margin-right: 0;
+		}
+
+		#section2 .section2-group .section2-content > h2 {
+			font-size: 28px;
+			text-align: left;
+			margin-top: 20px;
+			margin-bottom: 25px;
+			margin-left: 28px;
+		}
+
+	#section2 .section2-group#group2 .section2-content > h2 {
+		margin-top: 5px;
+	}
+
+	#section2 .section2-group .section2-content > p {
+		font-size: 15px;
+		text-align: left;
+		margin-left: 28px;
+		margin-bottom: 5px;
+	}
+
+#section3 {
+	overflow: hidden;
+}
+
+	#section3 > h2 {
+		font-size: 30px;
+		margin-top: 115px;
+		margin-bottom: 0;
+	}
+
+	#section3 .line {
+		width: 83px;
+		height: 1px;
+		background-image: url(../img/bpm/section2-line.png);
+		background-size: 100% 100%;
+		margin: 21px 0;
+	}
+
+	#section3 > p {
+		font-size: 20px;
+		margin-bottom: 18px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+		#section3 > p:nth-child(4) {
+			margin-bottom: 0;
+		}
+
+	#section3 #section3-group #section3-img {
+		width: 520px;
+		height: 596px;
+		margin-top: 89px;
+	}
+
+	#section3 #section3-group #section3-content {
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 148px;
+	}
+
+		#section3 #section3-group #section3-content > ul {
+			list-style-type: none;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 20px;
+			text-align: left;
+			padding: 0;
+			margin-bottom: 0;
+		}
+
+			#section3 #section3-group #section3-content > ul#ul1 {
+				color: #00b5c8;
+				margin-left: 42px;
+			}
+
+			#section3 #section3-group #section3-content > ul#ul2 {
+				margin-left: 15px;
+			}
+
+				#section3 #section3-group #section3-content > ul#ul2 > li:nth-last-child(1) {
+					margin-bottom: 149px;
+				}
+
+			#section3 #section3-group #section3-content > ul > li {
+				margin-bottom: 17px;
+			}
+
+#section4 {
+	overflow: hidden;
+	background-image: url(../img/bpm/section4-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+	#section4 > h2 {
+		font-size: 30px;
+		margin-top: 115px;
+		margin-bottom: 0;
+	}
+
+	#section4 .line {
+		width: 83px;
+		height: 1px;
+		background-image: url(../img/bpm/section2-line.png);
+		background-size: 100% 100%;
+		margin: 21px 0;
+	}
+
+	#section4 > p {
+		font-size: 20px;
+		margin-bottom: 18px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+		#section4 > p:nth-child(4) {
+			margin-bottom: 0;
+		}
+
+	#section4 #section4-content {
+		width: 1232px;
+		height: 543px;
+		background-image: url("../img/bpm/section4-contentBar.png");
+		background-size: 100% 100%;
+		margin-top: 89px;
+		margin-bottom: 140px;
+	}
+
+		#section4 #section4-content .arrow {
+			display: inline-block;
+			vertical-align: top;
+			width: 25px;
+			height: 40px;
+			background-size: 100% 100%;
+			cursor: pointer;
+		}
+
+			#section4 #section4-content .arrow#left {
+				background-image: url(../img/bpm/section4-content-point-left.png);		
+				margin-top: 251px;
+				margin-right: 23px;
+			}
+
+			#section4 #section4-content .arrow#right {
+				background-image: url(../img/bpm/section4-content-point-right.png);
+				margin-top: 251px;
+				margin-left: 23px;
+			}
+
+		#section4 #section4-content .image-box {
+			display: inline-block;
+			vertical-align: top;
+			position: relative;
+			overflow: hidden;
+			width: 880px;
+			height: 560px;
+			vertical-align: top;
+			margin-top: -10px;
+		}
+
+			#section4 #section4-content .image-box > img {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				-moz-transform: translate3d(0, 0, 0);
+				-ms-transform: translate3d(0, 0, 0);
+				-o-transform: translate3d(0, 0, 0);
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+			}
+
+#section5 {
+	overflow: hidden;
+}
+
+	#section5 .title-cn {
+		margin-top: 112px;
+	}
+
+		#section5 .title-cn > div {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+			#section5 .title-cn > div.title-line {
+				width: 8px;
+				height: 59px;
+				background-image: url(../img/bpm/title-line.png);
+				background-size: 100% 100%;
+			}
+
+			#section5 .title-cn > div.title {
+				font-size: 50px;
+				margin: 0 15px;
+			}
+
+	#section5 > p {
+		font-size: 20px;
+		margin-bottom: 18px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+		#section5 > p:nth-child(2) {
+			margin-top: 34px;
+		}
+
+		#section5 > p:nth-child(3) {
+			margin-bottom: 0;
+		}
+
+	#section5 #section5-content {
+		margin-top: 68px;
+	}
+
+		#section5 #section5-content .content {
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 50px;
+		}
+
+			#section5 #section5-content .content:nth-last-child(1) {
+				margin-right: 0;
+			}
+
+			#section5 #section5-content .content > h4 {
+				color: #00b5c8;
+				font-size: 22px;
+				text-align: left;
+				background-image: url(../img/bpm/section5-h.png);
+				background-size: 4px 100%;
+				background-position: left;
+				background-repeat: no-repeat;
+				padding-left: 10px;
+				margin-top: 0;
+				margin-bottom: 14px;
+			}
+
+			#section5 #section5-content .content > p {
+				font-size: 15px;
+				text-align: left;
+				margin-bottom: 5px;
+			}
+
+	#section5 #section5-img {
+		display: block;
+		width: 1239px;
+		height: 787px;
+		margin-top: 55px;
+		margin-bottom: 92px;
+	}

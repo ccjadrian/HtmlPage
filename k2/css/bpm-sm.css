@@ -1,0 +1,296 @@
+@media screen and (min-width: 768px) and (max-width: 1059px) {
+	#section1 {
+	}
+
+		#section1 .title-cn {
+			margin-top: 74px;
+		}
+
+			#section1 .title-cn > div.title-line {
+				width: 5.3px;
+				height: 39px;
+			}
+
+			#section1 .title-cn > div.title {
+				font-size: 33px;
+				margin: 0 10px;
+			}
+
+		#section1 > p {
+			font-size: 12px;
+			margin-bottom: 12px;
+		}
+
+			#section1 > p:nth-child(2) {
+				margin-top: 22px;
+			}
+
+		#section1 #section1-content {
+			margin-top: 52px;
+			margin-bottom: 82px;
+		}
+
+			#section1 #section1-content .section1-bar {
+				width: 53px;
+				height: 239px;
+			}
+
+				#section1 #section1-content .section1-bar#section1-leftbar {
+					margin-top: 16px;
+				}
+
+				#section1 #section1-content .section1-bar#section1-rightbar {
+					margin-top: 11px;
+				}
+
+			#section1 #section1-content #section1-group2 {
+				font-size: 16px;
+				margin-top: 66px;
+				margin-left: 66px;
+			}
+
+				#section1 #section1-content #section1-group2 > p {
+					margin-bottom: 10.5px;
+				}
+
+			#section1 #section1-content #section1-group1 > div {
+				font-size: 18px;
+				width: 112px;
+				height: 38px;
+				line-height: 38px;
+				margin-bottom: 18.5px;
+			}
+
+	#section2 {
+	}
+
+		#section2 .title-cn {
+			margin-top: 74px;
+		}
+
+			#section2 .title-cn > div.title-line {
+				width: 5.3px;
+				height: 39px;
+			}
+
+			#section2 .title-cn > div.title {
+				font-size: 33px;
+				margin: 0 10px;
+			}
+
+		#section2 > h2 {
+			font-size: 18px;
+			margin-top: 21px;
+		}
+
+		#section2 > p {
+			font-size: 12px;
+		}
+
+		#section2 .line {
+			width: 55px;
+			height: 1px;
+			margin: 14px 0;
+		}
+
+		#section2 .section2-group#group1 {
+			display: inline-block;
+			margin-top: 43px;
+			margin-bottom: 56px;
+		}
+
+		#section2 .section2-group#group2 {
+			display: inline-block;
+			vertical-align: top;
+			margin-top: 43px;
+			margin-bottom: 56px;
+		}
+
+		#section2 .section2-group .section2-content {
+			display: block;
+			overflow: hidden;
+			width: 342px;
+			height: 120px;
+			background-size: 12px 100%;
+			margin-bottom: 30px;
+			margin-right: 0;
+		}
+
+			#section2 .section2-group .section2-content > h2 {
+				font-size: 18px;
+				margin-top: 3px;
+				margin-bottom: 16px;
+				margin-left: 18px;
+			}
+
+		#section2 .section2-group#group2 .section2-content > h2 {
+			margin-top: 3px;
+		}
+
+		#section2 .section2-group .section2-content > p {
+			font-size: 12px;
+			margin-left: 18px;
+			margin-bottom: 5px;
+		}
+
+	#section3 {
+	}
+
+		#section3 > h2 {
+			font-size: 20px;
+			margin-top: 76px;
+		}
+
+		#section3 .line {
+			width: 55px;
+			height: 1px;
+			margin: 14px 0;
+		}
+
+		#section3 > p {
+			font-size: 12px;
+			margin-bottom: 12px;
+		}
+
+		#section3 #section3-group #section3-img {
+			width: 343px;
+			height: 393px;
+			margin-top: 58px;
+		}
+
+		#section3 #section3-group #section3-content {
+			margin-top: 97px;
+		}
+
+			#section3 #section3-group #section3-content > ul {
+				font-size: 12px;
+			}
+
+				#section3 #section3-group #section3-content > ul#ul1 {
+					margin-left: 27px;
+				}
+
+				#section3 #section3-group #section3-content > ul#ul2 {
+					margin-left: 10px;
+				}
+
+					#section3 #section3-group #section3-content > ul#ul2 > li:nth-last-child(1) {
+						margin-bottom: 98px;
+					}
+
+				#section3 #section3-group #section3-content > ul > li {
+					margin-bottom: 11px;
+				}
+
+	#section4 {
+	}
+
+		#section4 > h2 {
+			font-size: 20px;
+			margin-top: 76px;
+		}
+
+		#section4 .line {
+			width: 55px;
+			height: 1px;
+			margin: 14px 0;
+		}
+
+		#section4 > p {
+			font-size: 13px;
+			margin-bottom: 12px;
+		}
+
+		#section4 #section4-content {
+			width: 616px;
+			height: 271px;
+			margin-top: 58px;
+			margin-bottom: 92px;
+		}
+
+			#section4 #section4-content .arrow {
+				width: 12.5px;
+				height: 20px;
+			}
+
+				#section4 #section4-content .arrow#left {
+					margin-top: 125.5px;
+					margin-right: 11.5px;
+				}
+
+				#section4 #section4-content .arrow#right {
+					margin-top: 125.5px;
+					margin-left: 11.5px;
+				}
+
+			#section4 #section4-content .image-box {
+				width: 440px;
+				height: 280px;
+				margin-top: -4.5px;
+			}
+
+	#section5 {
+	}
+
+		#section5 .title-cn {
+			margin-top: 74px;
+		}
+
+			#section5 .title-cn > div.title-line {
+				width: 5.3px;
+				height: 39px;
+			}
+
+			#section5 .title-cn > div.title {
+				font-size: 33px;
+				margin: 0 10px;
+			}
+
+		#section5 > p {
+			font-size: 12px;
+			margin-bottom: 12px;
+		}
+
+			#section5 > p:nth-child(2) {
+				margin-top: 22px;
+			}
+
+		#section5 #section5-content {
+			margin-top: 45px;
+		}
+
+			#section5 #section5-content .content {
+				width: 30%;
+				margin-bottom: 30px;
+				margin-left: 0;
+				margin-right: 0;
+			}
+
+				#section5 #section5-content .content:nth-child(1), #section5 #section5-content .content:nth-child(3) {
+					margin-left: 20%;
+				}
+
+				#section5 #section5-content .content:nth-child(2), #section5 #section5-content .content:nth-child(4) {
+					margin-left: 5%;
+					margin-right: 15%;
+				}
+
+				#section5 #section5-content .content > h4 {
+					font-size: 16px;
+					background-size: 2.6px 100%;
+					padding-left: 6px;
+					margin-bottom: 9px;
+				}
+
+				#section5 #section5-content .content > p {
+					font-size: 12px;
+					margin-bottom: 3px;
+				}
+
+		#section5 #section5-img {
+			width: 619.5px;
+			height: 393.5px;
+			margin-top: 10px;
+			margin-bottom: 60px;
+		}
+}

@@ -1,0 +1,305 @@
+@media screen and (max-width: 767px) {
+	#section1 {
+	}
+
+		#section1 .title-cn {
+			margin-top: 30px;
+		}
+
+			#section1 .title-cn > div.title-line {
+				width: 5px;
+				height: 29.5px;
+			}
+
+			#section1 .title-cn > div.title {
+				font-size: 25px;
+				margin: 0 10px;
+			}
+
+		#section1 > p {
+			font-size: 12px;
+			text-align: left;
+			text-indent: 2em;
+			margin-bottom: 12px;
+			line-height: 1.4;
+		}
+
+			#section1 > p:nth-child(2) {
+				margin-top: 22px;
+			}
+
+		#section1 #section1-content {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+			#section1 #section1-content .section1-bar {
+				width: 53px;
+				height: 239px;
+			}
+
+				#section1 #section1-content .section1-bar#section1-leftbar {
+					margin-top: 16px;
+				}
+
+				#section1 #section1-content .section1-bar#section1-rightbar {
+					margin-top: 11px;
+				}
+
+			#section1 #section1-content #section1-group2 {
+				display: block;
+				font-size: 16px;
+				margin-top: 40px;
+				margin-left: 0;
+			}
+
+				#section1 #section1-content #section1-group2 > p {
+					margin-bottom: 10.5px;
+				}
+
+			#section1 #section1-content #section1-group1 > div {
+				font-size: 18px;
+				width: 112px;
+				height: 38px;
+				line-height: 38px;
+				margin-bottom: 18.5px;
+			}
+
+	#section2 {
+	}
+
+		#section2 .title-cn {
+			margin-top: 30px;
+		}
+
+			#section2 .title-cn > div.title-line {
+				width: 5px;
+				height: 25px;
+			}
+
+			#section2 .title-cn > div.title {
+				font-size: 22px;
+				margin: 0 10px;
+			}
+
+		#section2 > h2 {
+			font-size: 18px;
+			margin-top: 21px;
+		}
+
+		#section2 > p {
+			font-size: 12px;
+			line-height: 1.4;
+			text-align: left;
+			text-indent: 2em;
+		}
+
+		#section2 .line {
+			width: 55px;
+			height: 1px;
+			margin: 14px 0;
+		}
+
+		#section2 .section2-group#group1 {
+			margin-top: 43px;
+			margin-bottom: 0;
+		}
+
+		#section2 .section2-group#group2 {
+			vertical-align: top;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		#section2 .section2-group .section2-content {
+			display: block;
+			overflow: hidden;
+			width: 320px;
+			height: 120px;
+			background-size: 6px 100%;
+			margin-bottom: 30px;
+			margin-right: 0;
+		}
+
+			#section2 .section2-group .section2-content > h2 {
+				font-size: 18px;
+				margin-top: 3px;
+				margin-bottom: 16px;
+				margin-left: 10px;
+			}
+
+		#section2 .section2-group#group2 .section2-content > h2 {
+			margin-top: 3px;
+		}
+
+		#section2 .section2-group .section2-content > p {
+			font-size: 12px;
+			margin-left: 10px;
+			margin-bottom: 5px;
+		}
+
+	#section3 {
+	}
+
+		#section3 > h2 {
+			font-size: 18px;
+			margin-top: 40px;
+		}
+
+		#section3 .line {
+			width: 55px;
+			height: 1px;
+			margin: 7px 0;
+		}
+
+		#section3 > p {
+			font-size: 12px;	
+			line-height: 1.4;
+			text-align: left;
+			text-indent: 2em;
+			margin-bottom: 12px;
+		}
+
+		#section3 #section3-group #section3-img {
+			width: 300px;
+			height: 344px;
+			margin-top: 30px;
+		}
+
+		#section3 #section3-group #section3-content {
+			display: block;
+			margin-top: 30px;
+		}
+
+			#section3 #section3-group #section3-content > ul {
+				font-size: 12px;
+			}
+
+				#section3 #section3-group #section3-content > ul#ul1 {
+					margin-left: 0;
+				}
+
+				#section3 #section3-group #section3-content > ul#ul2 {
+					width: 17em;
+					margin-left: 5px;
+				}
+
+					#section3 #section3-group #section3-content > ul#ul2 > li:nth-last-child(1) {
+						margin-bottom: 50px;
+					}
+
+				#section3 #section3-group #section3-content > ul > li {
+					height: 2em;
+					margin-bottom: 11px;
+				}
+
+	#section4 {
+	}
+
+		#section4 > h2 {
+			font-size: 18px;
+			margin-top: 40px;
+		}
+
+		#section4 .line {
+			width: 55px;
+			height: 1px;
+			margin: 7px 0;
+		}
+
+		#section4 > p {
+			font-size: 12px;
+			line-height: 1.4;
+			text-align: left;
+			text-indent: 2em;
+			margin-bottom: 12px;
+		}
+
+		#section4 #section4-content {
+			width: 320px;
+			height: 141px;
+			margin-top: 30px;
+			margin-bottom: 50px;
+		}
+
+			#section4 #section4-content .arrow {
+				width: 12.5px;
+				height: 20px;
+			}
+
+				#section4 #section4-content .arrow#left {
+					margin-top: 60.5px;
+					margin-right: 11.5px;
+				}
+
+				#section4 #section4-content .arrow#right {
+					margin-top: 60.5px;
+					margin-left: 11.5px;
+				}
+
+			#section4 #section4-content .image-box {
+				width: 228px;
+				height: 145px;
+				margin-top: -2px;
+			}
+
+	#section5 {
+	}
+
+		#section5 .title-cn {
+			margin-top: 30px;
+		}
+
+			#section5 .title-cn > div.title-line {
+				width: 5px;
+				height: 25px;
+			}
+
+			#section5 .title-cn > div.title {
+				font-size: 22px;
+				margin: 0 10px;
+			}
+
+		#section5 > p {
+			font-size: 12px;
+			line-height: 1.4;
+			text-align: left;
+			text-indent: 2em;
+			margin-bottom: 12px;
+		}
+
+			#section5 > p:nth-child(2) {
+				margin-top: 22px;
+			}
+
+		#section5 #section5-content {
+			margin-top: 30px;
+		}
+
+			#section5 #section5-content .content {
+				display: block;
+				width: 300px;
+				margin-bottom: 30px;
+				margin-left: 0;
+				margin-right: 0;
+			}
+
+				#section5 #section5-content .content > h4 {
+					font-size: 16px;
+					background-size: 2.6px 100%;
+					padding-left: 6px;
+					margin-bottom: 9px;
+				}
+
+				#section5 #section5-content .content > p {
+					font-size: 12px;
+					margin-bottom: 3px;
+				}
+
+		#section5 #section5-img {
+			width: 300px;
+			height: 190.3px;
+			margin-top: 10px;
+			margin-bottom: 30px;
+		}
+}
