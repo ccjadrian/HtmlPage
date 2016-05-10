@@ -1,0 +1,284 @@
+@media screen and (min-width: 768px) and (max-width: 1059px) {
+	#section1 {
+		height: 334px;
+	}
+
+		#section1 > h1 {
+			margin-top: 102px;
+			font-size: 24px;
+		}
+
+		#section1 > h2 {
+			margin-top: 20px;
+			font-size: 21px;
+		}
+
+		#section1 > a {
+			margin-top: 35px;
+			font-size: 16px;
+			padding: 8px 35px;
+		}
+
+	#section2 {
+	}
+
+		#section2 #section2-icon {
+			width: 55px;
+			height: 57px;
+			margin-top: 46px;
+			margin-bottom: 43px;
+		}
+
+			#section2 #section2-icon > p {
+				font-size: 21px;
+				padding-top: 13px;
+			}
+
+		#section2 > img {
+			margin-top: -8px;
+			width: 301px;
+		}
+
+		#section2 > p {
+			font-size: 16px;
+			margin-bottom: 54px;
+		}
+
+	#section3 {
+	}
+
+		#section3 > h1 {
+			font-size: 33px;
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+
+		#section3 .inline-button {
+			margin-bottom: 30px;
+		}
+
+			#section3 .inline-button > div {
+				display: block;
+				width: 260px;
+				height: 53px;
+				margin-top: 10px;
+			}
+
+				#section3 .inline-button > div > .icon {
+					margin-top: 12.5px;
+				}
+
+				#section3 .inline-button > div > p {
+					font-size: 16px;
+					margin-top: 18.5px;
+					margin-bottom: 18.5px;
+				}
+
+			#section3 .inline-button #item1 .icon {
+				width: 33.66px;
+				height: 28.38px;
+			}
+
+			#section3 .inline-button #item2 {
+				margin-left: 0;
+				margin-right: 0;
+			}
+
+				#section3 .inline-button #item2 .icon {
+					width: 33.66px;
+					height: 28.38px;
+				}
+
+			#section3 .inline-button #item3 .icon {
+				width: 33.66px;
+				height: 28.38px;
+			}
+
+		#section3 #content {
+			font-size: 12px;
+		}
+
+			#section3 #content > p {
+				height: 54px;
+				line-height: 1.5;
+			}
+
+			#section3 #content > a.button {
+				font-size: 16px;
+				width: 4em;
+				padding: 12.54px 35px 12.54px 35px;
+				margin-top: 30px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+		#section3 .img-box {
+			display: block;
+			margin: 33px 0;
+		}
+
+			#section3 .img-box #picture {
+				width: 400px;
+			}
+
+	#section4 {
+	}
+
+		#section4 > h1 {
+			font-size: 33px;
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+
+		#section4 .inline-button {
+			margin-bottom: 30px;
+		}
+
+			#section4 .inline-button > div {
+				display: block;
+				width: 308px;
+				height: 53px;
+				margin-top: 10px;
+			}
+
+				#section4 .inline-button > div:nth-child(1) {
+					width: 308px;
+					height: 53px;
+				}
+
+				#section4 .inline-button > div > .icon {
+					margin-top: 12px;
+				}
+
+				#section4 .inline-button > div > p {
+					font-size: 16px;
+					margin-top: 18.5px;
+					margin-bottom: 18.5px;
+				}
+
+			#section4 .inline-button #item1 .icon {
+				width: 33.66px;
+				height: 28.38px;
+			}
+
+			#section4 .inline-button #item2 {
+				margin-left: 0;
+				margin-right: 0;
+			}
+
+				#section4 .inline-button #item2 .icon {
+					width: 33.66px;
+					height: 28.38px;
+				}
+
+			#section4 .inline-button #item3 .icon {
+				width: 33.66px;
+				height: 28.38px;
+			}
+
+		#section4 > p {
+			font-size: 12px;
+			width: 33em;
+			height: 36px;
+			line-height: 1.5;
+		}
+
+		#section4 .img-box {
+			width: 678px;
+			height: 355px;
+			margin-top: 30px;
+			margin-bottom: 60px;
+		}
+
+			#section4 .img-box #picture {
+				width: 618px;
+				margin-top: 35px;
+			}
+
+	#section5 {
+	}
+
+		#section5 > h1 {
+			font-size: 33px;
+			margin-top: 40px;
+			margin-bottom: 52px;
+		}
+
+		#section5 #links {
+			width: 763px;
+			height: 160px;
+			margin-bottom: 92px;
+		}
+
+			#section5 #links .link-line > a {
+				display: inline-block;
+				color: #fff;
+				font-size: 17px;
+				width: 5em;
+			}
+
+			#section5 #links .link-line:nth-child(1) > a {
+				margin-top: 28.5px;
+				margin-bottom: 28.5px;
+			}
+
+				#section5 #links .link-line:nth-child(1) > a:nth-child(1) {
+					margin-left: 44px;
+					margin-right: 44px;
+				}
+
+				#section5 #links .link-line:nth-child(1) > a:nth-child(2) {
+					margin-left: 61px;
+					margin-right: 61px;
+				}
+
+				#section5 #links .link-line:nth-child(1) > a:nth-child(3) {
+					margin-left: 70px;
+					margin-right: 70px;
+				}
+
+				#section5 #links .link-line:nth-child(1) > a:nth-child(4) {
+					margin-left: 34px;
+					margin-right: 34px;
+				}
+
+			#section5 #links .link-line:nth-child(2) > a {
+				margin-top: 34.5px;
+				margin-bottom: 34.5px;
+			}
+
+				#section5 #links .link-line:nth-child(2) > a:nth-child(1) {
+					margin-left: 44px;
+					margin-right: 44px;
+				}
+
+				#section5 #links .link-line:nth-child(2) > a:nth-child(2) {
+					margin-left: 61px;
+					margin-right: 61px;
+				}
+
+				#section5 #links .link-line:nth-child(2) > a:nth-child(3) {
+					margin-left: 70px;
+					margin-right: 70px;
+				}
+
+				#section5 #links .link-line:nth-child(2) > a:nth-child(4) {
+					margin-left: 34px;
+					margin-right: 34px;
+				}
+
+	#section6 {
+	}
+
+		#section6 > h2 {
+			font-size: 24px;
+			margin-top: 56px;
+			margin-bottom: 16px;
+		}
+
+		#section6 > a.button {
+			font-size: 24px;
+			padding: 8px 35px;
+			margin-bottom: 56px;
+		}
+}
