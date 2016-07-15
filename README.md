@@ -1,5 +1,7 @@
 "# HtmlPage" 
 
-#Just for personal use
+#About static html page
 
-Not very helpful for others
+#Just used for personal practice
+
+#Not very helpful for others
